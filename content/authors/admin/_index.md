@@ -21,8 +21,9 @@ organizations:
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Macroeconomics and Growth
-- Macro(Finance/Development/IO/International)
+- Growth/Macro-Development
+- Macro-Finance
+- Macro-IO
 - Computational/Machine Learning
 
 education:
@@ -47,7 +48,7 @@ social:
   link: https://github.com/jlperla
 - icon: cv
   icon_pack: ai
-  link: http://jesseperla.com/jesse_perla_cv.pdf
+  link: https://jlperla.github.io/CV/perla_cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

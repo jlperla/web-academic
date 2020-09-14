@@ -14,7 +14,7 @@
   weight = 20
 
 [[main]]
-  name = "Other"
+  name = "Posts"
   url = "#posts"
   weight = 50
 
@@ -22,7 +22,8 @@
   name = "Projects"
   url = "#projects"
   weight = 30
+  
 [[main]]
    name = "CV"
-   url = "http://jesseperla.com/jesse_perla_cv.pdf"
+   url = "https://jlperla.github.io/CV/perla_cv.pdf"
    weight = 40
