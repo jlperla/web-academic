@@ -127,7 +127,7 @@ contact_links = [
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+twitter = "jlperla"
 
 ############################
 ## Regional Settings
@@ -184,7 +184,7 @@ plugins_js  = []
   gravatar = false
 
   # Choose a shape for avatar images. Options: circle, square.
-  shape = "circle"
+  shape = "square"
 
 # Configuration of publication pages.
 [publications]
@@ -237,7 +237,7 @@ plugins_js  = []
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 0
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -277,7 +277,7 @@ plugins_js  = []
   google_tag_manager = ""
 
 ############################
-## Content Management System
+## Content Management System  
 ############################
 [cms]
   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser

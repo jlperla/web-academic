@@ -25,7 +25,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["datascience-computational"]
 ---
 Not every top student should get a PhD in economics or finance. But if you are considering it, then some advanced preparation can make your life easier.
 

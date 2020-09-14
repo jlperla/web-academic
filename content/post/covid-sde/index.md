@@ -3,7 +3,7 @@
 
 title: "Modeling Shocks in COVID 19"
 subtitle: "An Introduction to Stochastic Differential Equations"
-summary: ""
+summary: "Lecture notes on using ODEs and SDEs for epidemiology in economics"
 authors: []
 tags: []
 categories: []
@@ -25,7 +25,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["datascience-computational"]
 ---
 In the [Quantitative Economics with Julia](julia.quantecon.org) book, we have added two new lectures.
 
