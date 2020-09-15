@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Ubc Course Advice"
+title: "UBC Course Advice for Econ"
 subtitle: ""
 summary: ""
 authors: []
@@ -27,7 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: ["datascience-computational"]
 ---
-Not every top student should get a PhD in economics or finance. But if you are considering it, then some advanced preparation can make your life easier.
+Not every top student should choose to get a PhD in economics or finance. But if you are considering it, then some advanced preparation can make your life easier.
 
 ### Reference Letters
 

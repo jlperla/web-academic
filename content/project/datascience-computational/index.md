@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Datascience and Computational"
+title: "Datascience and Computational Economics"
 summary: "Lecture notes and software for teaching datascience and computational economics"
 authors: []
 tags: []
@@ -39,3 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+I have a strong commitment to teaching datascience and computational methods to undergraduate and graduate students.  Part of this is through my work with [QuantEcon](quantecon.org) and the online textbook [Quantitative Economics with Julia](julia.quantecon.org) and [QuantEcon DataScience](datascience.quantecon.org).

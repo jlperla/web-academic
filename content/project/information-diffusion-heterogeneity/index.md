@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Information Diffusion Heterogeneity"
-summary: ""
+title: "Information and Knowledge Diffusion"
+summary: "Understanding the role of diffusion of knowledge, information, and ideas for the growth of firms and economies"
 authors: []
 tags: []
 categories: []

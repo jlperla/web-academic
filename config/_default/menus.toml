@@ -14,7 +14,7 @@
   weight = 20
 
 [[main]]
-  name = "Posts"
+  name = "Notes"
   url = "#posts"
   weight = 50
 
@@ -27,3 +27,8 @@
    name = "CV"
    url = "https://jlperla.github.io/CV/perla_cv.pdf"
    weight = 40
+  
+[[main]]
+   name = "Family"
+   url = "family"
+   weight = 80
