@@ -4,7 +4,6 @@
 title: "Modeling Shocks in COVID 19"
 subtitle: "An Introduction to Stochastic Differential Equations"
 summary: "Lecture notes on using ODEs and SDEs for epidemiology in economics"
-authors: []
 tags: []
 categories: []
 date: 2020-09-13T22:06:40-07:00

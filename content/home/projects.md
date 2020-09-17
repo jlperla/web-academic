@@ -35,7 +35,7 @@ subtitle = "Broad topics and projects associated with my research and teaching."
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "5"
 
   # Toggle between the various page layout types.
   #   1 = List

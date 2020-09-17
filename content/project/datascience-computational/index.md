@@ -3,10 +3,9 @@
 
 title: "Datascience and Computational Economics"
 summary: "Lecture notes and software for teaching datascience and computational economics"
-authors: []
 tags: []
 categories: []
-date: 2020-09-14T09:37:39-07:00
+date: 2020-09-16T0:01:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -39,4 +38,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-I have a strong commitment to teaching datascience and computational methods to undergraduate and graduate students.  Part of this is through my work with [QuantEcon](quantecon.org) and the online textbook [Quantitative Economics with Julia](julia.quantecon.org) and [QuantEcon DataScience](datascience.quantecon.org).
+I have a strong commitment to teaching data-science and computational methods to undergraduate and graduate students.  Part of this is through my work with [QuantEcon](quantecon.org) and the online textbooks [Quantitative Economics with Julia](julia.quantecon.org) and [QuantEcon DataScience](datascience.quantecon.org).

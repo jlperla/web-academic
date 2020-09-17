@@ -1,10 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "UBC Course Advice for Econ"
+title: "UBC Math and Economics Course Advice"
 subtitle: ""
 summary: ""
-authors: []
 tags: []
 categories: []
 date: 2020-09-06T07:13:10-07:00

@@ -15,7 +15,7 @@
 
 [[main]]
   name = "Notes"
-  url = "#posts"
+  url = "post"
   weight = 50
 
 [[main]]

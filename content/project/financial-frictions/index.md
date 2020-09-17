@@ -1,12 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Machine Learning High Dimensions"
+title: "New Approaches to Financial Frictions"
 summary: ""
-authors: []
 tags: []
 categories: []
-date: 2020-09-14T09:34:00-07:00
+date: 2020-09-16T0:02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -39,3 +38,6 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+A major direction in my research over the next few years is the investigation of new approaches to real financial frictions.  This includes applying computer-science/statistics style [learning and inference]({{< ref "/project/ML-high-dim/index.md" >}}) to models with [heterogeneity of information]({{< ref "/project/information-diffusion/index.md" >}}).
+
+Along the way towards that goal, I have made some turns to investigate alternative stories such as the role of limited liability, incomplete markets, and commitment.

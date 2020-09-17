@@ -1,10 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Data Sources"
+title: "A Grab Bag of Data Sources"
 subtitle: ""
-summary: "Variety of publicly available data sources"
-authors: []
+summary: "Links to publicly available data sources useful for research and datascience probjects"
 tags: []
 categories: []
 date: 2020-09-06T07:19:46-07:00
