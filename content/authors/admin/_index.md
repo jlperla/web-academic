@@ -24,7 +24,7 @@ interests:
 - Growth/Macro-Development
 - Macro-Finance
 - Macro-IO
-- Computational/Machine Learning
+- Machine Learning
 
 education:
   courses:

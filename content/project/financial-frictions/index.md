@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "New Approaches to Financial Frictions"
-summary: ""
+title: "Role of Heterogeneity in Financial Frictions"
+summary: "New approaches to understanding real distortions in financial economics"
 tags: []
 categories: []
 date: 2020-09-16T0:02:00
