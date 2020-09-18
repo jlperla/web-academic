@@ -38,4 +38,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-I have a strong commitment to teaching data-science and computational methods to undergraduate and graduate students.  Part of this is through my work with [QuantEcon](quantecon.org) and the online textbooks [Quantitative Economics with Julia](julia.quantecon.org) and [QuantEcon DataScience](datascience.quantecon.org).
+I have a strong commitment to teaching data-science and computational methods to undergraduate and graduate students.  Part of this is through my work with [QuantEcon](quantecon.org), supporting open-source software projects, and creating open online textbooks.

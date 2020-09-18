@@ -44,11 +44,11 @@ The converse is true as well: **doing poorly** on tough math courses **is a terr
 
   
 
-Also, in many ways, our theoretical 400 level economics courses (described below) are a better direct technical preparation, and are much more useful for getting letter writers. Taking math classes should be done in addition to those courses, not instead of them. With that said, for **many fields** you will find the tools of advanced mathematics classes, and the rigor of doing proofs, **directly useful**.
+Also, in many ways, our theoretical 400 level economics courses (described below) are a better direct technical preparation, and are much more useful for getting letter writers. Taking math classes should be done in addition to those courses, not instead of them. With that said, for many fields you will find the tools of advanced mathematics classes, and the rigor of doing proofs, directly useful.
 
   
 
-To plan for getting into a top PhD program directly out of your undergrad, you could (1) try to get real analysis/variables is on your transcript (or a number of other courses from the Math department), and (2) use it as an indicator _to yourself_ of whether you are well suited to graduate economics or finance.  This will require some early planning in your course selection
+To plan for getting into a top PhD program directly out of your undergrad, you could (1) try to get a good mark on a difficult math course on your transcript (or a number of less difficult ones), and (2) use it as an indicator _to yourself_ of whether you are well suited to graduate economics or finance.  This will require some early planning in your course selection
 
 ### Ordered Course Selection (for students interested in a PhD)
 
@@ -72,8 +72,6 @@ At UBC, the analysis course is **MATH 320:** Real Variables I
 ### Risks in Taking MATH 320
 
 The upside of getting a decent mark in MATH320 is that it is a strong signal to graduate schools of your technical rigor and intelligence. The downside risk is that you could get a terrible mark in the class, which both hurts your GPA and may serve as a bad signal on your ability to handle difficult material. **For all but the most technical students, the downside risks outweigh the potential upside.** Also, to repeat an important point: MATH320 is helpful, but is not a substitute for doing well in upper-year economics courses and getting good letters.
-
-  
 
 If you do very well in 220, 221, and 302, then it is probably worth the risk to take it for credit on your transcript.
 
