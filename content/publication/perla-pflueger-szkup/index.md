@@ -5,7 +5,7 @@ title: 'Doubling Down on Debt: Limited Liability as a Financial Friction'
 subtitle: ''
 summary: ''
 authors:
-- Jess Benhabib
+- Jesse Perla
 - Carolin Pflueger
 - Michal Szkup
 categories: []

@@ -24,7 +24,7 @@ image:
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-projects: ["information-diffusion", "ML-high-dim"]
+projects: ["information-diffusion"]
 publishDate: '2020-09-17T13:19:59.050789Z'
 publication_types:
 - 9

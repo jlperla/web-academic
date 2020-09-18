@@ -179,7 +179,7 @@
   translation: Report
 
 - id: pub_book
-  translation: Textbook
+  translation: Book
 
 - id: pub_book_section
   translation: Book section
