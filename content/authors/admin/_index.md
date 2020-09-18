@@ -31,7 +31,9 @@ education:
   - course: PhD in Economics
     institution: NYU
     year: 2013
-
+  - course: BSc in Applied Mathematics
+    institution: Columbia
+    year: 1997
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the

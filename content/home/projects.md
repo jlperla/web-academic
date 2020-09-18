@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Research Agenda"
-subtitle = "Broad topics and projects associated with my research and teaching."
+subtitle = "Broad topics and projects associated with my research and teaching"
 
 [content]
   # Page type to display. E.g. project.

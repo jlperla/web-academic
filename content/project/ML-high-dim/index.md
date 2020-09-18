@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Machine Learning and High Dimensional Economics"
-summary: "Tools and applications of computer science techniques for modeling heterogeneity, information diffusion, and high-dimensional learning."
+summary: "Tools and applications from computer science/statistics/math for modeling heterogeneity, information diffusion, and high-dimensional learning."
 tags: []
 categories: []
 date: 2020-09-16T0:03:00
