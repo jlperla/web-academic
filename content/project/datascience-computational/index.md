@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Datascience and Computational Economics"
-summary: "Lecture notes and software for teaching datascience and computational economics"
+summary: "Lecture notes and software"
 tags: []
 categories: []
 date: 2020-09-16T0:01:00

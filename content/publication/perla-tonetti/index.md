@@ -27,7 +27,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["information-diffusion"]
 publishDate: '2020-09-17T13:20:03.508809Z'
 publication_types:
 - 2
@@ -40,6 +40,9 @@ abstract: The least productive agents in an economy can be vital in generating g
   distribution of productivity, as evolved from past search decisions, and an optimal,
   forward-looking search policy. The growth rate depends on characteristics of the
   productivity distribution, with a thicker-tailed distribution leading to more growth.
-publication: '*Journal of Political Economy*'
+publication: '**Journal of Political Economy**'
 url_pdf: http://www.jstor.org/stable/10.1086/674362
+links:
+  - name: Appendix
+    url: 'perla_tonetti_technical_appendix.pdf'
 ---
