@@ -26,12 +26,6 @@
     Content-Type = "application/rss+xml"
 
 [[plugins]]
-  package = "netlify-plugin-checklinks"
-
-  [plugins.inputs]
-  checkExternal = true
-
-[[plugins]]
 package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
