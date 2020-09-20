@@ -3,7 +3,7 @@
 
 title: Equilibrium Technology Diffusion, Trade, and Growth
 subtitle: ''
-summary: ''
+summary: 'We study how opening to trade affects economic growth in a model where heterogeneous firms can adopt new technologies already in use by other firms in their home country.'
 authors:
 - Jesse Perla
 - Christopher Tonetti

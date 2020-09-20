@@ -3,7 +3,7 @@
 
 title: 'Doubling Down on Debt: Limited Liability as a Financial Friction'
 subtitle: ''
-summary: ''
+summary: 'We investigate how a combination of limited liability and preexisting debt distort firms’ investment and equity payout decisions.'
 authors:
 - Jesse Perla
 - Carolin Pflueger

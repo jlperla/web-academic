@@ -26,7 +26,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: ["datascience-computational"]
 ---
-In the [Quantitative Economics with Julia](julia.quantecon.org) book, we have added two new lectures.
+In the [Quantitative Economics with Julia](https://julia.quantecon.org) book, we have added two new lectures.
 
 1. [Modeling COVID 19 with Differential Equations](https://julia.quantecon.org/continuous_time/seir_model.html)
 - In this lecture, dynamics are modeled using a standard SEIR (Susceptible-Exposed-Infected-Removed) model of disease spread, represented as a system of ordinary differential equations where the number of agents is large and there are no exogenous stochastic shocks.

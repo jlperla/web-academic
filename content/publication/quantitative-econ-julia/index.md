@@ -31,7 +31,7 @@ projects: ["datascience-computational"]
 publishDate: '2020-09-18T18:30:46.411061Z'
 publication_types:
 - 5
-abstract: 'This website presents a set of lectures on quantitative economic modeling. The language instruction is Julia.'
+abstract: 'This online textbook presents a set of lectures on quantitative economic modeling. The language instruction is Julia.'
 
 publication: '**Open Textbook**'
 links:

@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: 'QuantEcon Datascience: Introduction to Economic Modeling and Data Science'
-summary: ''
+summary: 'This online textbook presents a series of lectures on programming, data science, and economics.'
 authors:
 - Chase Coleman
 - Spencer Lyon

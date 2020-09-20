@@ -3,7 +3,7 @@
 
 title: 'Reconciling Models of Diffusion and Innovation: A Theory of the Productivity Distribution and Technology Frontier'
 subtitle: ''
-summary: ''
+summary: ' We study how innovation and technology diffusion interact to endogenously determine the shape of the productivity distribution and generate aggregate growth.'
 authors:
 - Jess Benhabib
 - Jesse Perla
