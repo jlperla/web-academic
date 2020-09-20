@@ -3,7 +3,7 @@
 
 title: 'A Model of Product Awareness and Industry Life Cycles'
 subtitle: ''
-summary: 'This paper proposes a model where consumption bundle heterogeneity is derived from a network of connections between consumers and firms.  In it, consumers slowly become 'aware' of differentiated products, adding connections and expanding their choice sets.'
+summary: "This paper proposes a model where consumption bundle heterogeneity is derived from a network of connections between consumers and firms.  In it, consumers slowly become 'aware' of differentiated products, adding connections and expanding their choice sets."
 authors:
 - Jesse Perla
 categories: []
