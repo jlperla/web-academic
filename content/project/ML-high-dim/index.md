@@ -45,7 +45,7 @@ The broad goals of this research agenda are to:
    - build models to tie together models of statical learning from the agent's perspective given non-trivial heterogeneity (i.e. using the "learning" models from the CS/Statistics literature **inside of** of the agent's problem, where the state may have high degrees of heterogeneity).  The main applications are models of [learning and inference in finance]({{< ref "/project/financial-frictions/index.md" >}}).
    - chase especially useful spillovers that may come along the way (e.g. high-dimensional fixed-effects and sojourns into Bayesian methods)
 
-For macroeconomics, a hybrid approach is especially important, because it is a hybrid approach - using the flexible non-parametric features of neural networks/deep learning with constraints and models that come out of economics. As an analogy, consider "Physics Informed Neural Networks" and [SciML](https://sciml.ai/). 
+For macroeconomics, a hybrid approach is especially important: we need to use the flexible non-parametric features of neural networks/deep learning with constraints and models that come out of economics. As an analogy, consider "Physics Informed Neural Networks" and [SciML](https://sciml.ai/). 
 
 For more background, watch this excellent keynote from [Karen Willcox](https://kiwi.oden.utexas.edu/) 
 {{< youtube Bk4PJnjuPps >}}.    
