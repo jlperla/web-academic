@@ -38,6 +38,6 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-A major direction in my research over the next few years is the investigation of new approaches to real financial frictions.  This includes applying computer-science/statistics style [learning and inference]({{< ref "/project/ML-high-dim/index.md" >}}) to models with [heterogeneity of information]({{< ref "/project/information-diffusion/index.md" >}}).
+A major continuing direction in my research is the investigation of new approaches to real financial frictions.  This includes applying computer science/statistics style [learning and inference]({{< ref "/project/ML-high-dim/index.md" >}}) to models with [heterogeneity of information]({{< ref "/project/information-diffusion/index.md" >}}).
 
-Along the way towards that goal, I have made some turns to investigate alternative stories such as the role of limited liability, incomplete markets, and commitment.
+Along the way, I have examined, and will continue to investigate, alternative stories such as the role of limited liability, incomplete markets, and commitment.

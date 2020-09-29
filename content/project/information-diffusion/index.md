@@ -38,15 +38,16 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-At the core of most of my research are (1) models of heterogeneity in knowledge/ideas/information; and (2) frictions and sources of diffusion which prevent convergence towards homogeneity - and the aggregate implications.
+At the core of most of my research are (1) models of heterogeneity in knowledge/ideas/information; and (2) frictions and sources of diffusion that prevent convergence towards homogeneity - and the aggregate implications.
 
-Some of the questions I have tackled from this perspective are how does: 
-1. innovation and technology diffusion interact to endogenously determine the shape of the productivity distribution and generate aggregate growth
-2. an industry evolve as the network of connections between firms and consumers as information diffuses
-3. heterogeneity of information lead to market power and rents in product and financial markets that are not fully Walrasian
+Some of the questions I have tackled from this perspective include how does:
+
+1. innovation and technology diffusion interact to endogenously determine the shape of productivity distribution and generate aggregate growth?
+2. an industry evolve as information diffuses to grow the network of connections between firms and consumers?
+3. heterogeneity of information lead to market power in product and financial markets that are not fully Walrasian?
 
 ## Background
 
-Macroeconomics over the last few decades has made enormous progress on being able to understand the role of heterogeneity of state (e.g. wealth, income, productivity), but is only starting to make significant progress on heterogeneity of information.  Part of the issue is that our computational methods become tractable precisely because Walrasian markets make any sort of information fully revealing - thereby radically decreasing the complexity and dimensionality of the problem.
+Over the last few decades, Macroeconomics has made enormous progress on being able to understand the role of heterogeneity of state (e.g., wealth, income, productivity), but is only starting to make significant progress on heterogeneity of information.  Part of the issue is that our computational methods become tractable precisely because Walrasian markets make any sort of information fully revealing - thereby radically decreasing the complexity and dimensionality of the problem.
 
-While there are tricks that I and others have used to deal with these issues in specific cases, to tackle this problem without compromising essential economics we need new computational and theoretical methods.  In addition, since many of these problems involve agent's learning and making inference, we need to expand our set of tools for dealing with "within-model" inference.  Consequently, I am have taken a sojourn into understanding [scientific machine learning and high dimensional methods]({{< ref "/project/ML-high-dim/index.md" >}}) - inspired by the computer science, statistics, and computational sciences literature.  My plan is to move towards applications with [implications for real financial frictions]({{< ref "/project/financial-frictions/index.md" >}}) that come about from "within-model" inference.
+While there are tricks that I and others have used to deal with these issues in specific cases, we need new computational and theoretical methods to tackle this problem without compromising essential economics.  In addition, since many of these problems involve an agent learning and forecasting, we need to expand our set of tools for "within-model" inference.  Consequently, I am exploring tools from [scientific machine learning and high dimensional methods]({{< ref "/project/ML-high-dim/index.md" >}}), inspired by computer science, statistics, and computational sciences literature.  My plan is to move towards applications with [implications for real financial frictions]({{< ref "/project/financial-frictions/index.md" >}}) arising from "within-model" inference.

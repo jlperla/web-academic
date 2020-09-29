@@ -38,14 +38,15 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-My interest in [information diffusion]({{< ref "/project/information-diffusion/index.md" >}}) and [computational economics ]({{< ref "/project/datascience-computational/index.md" >}}) led to me examining better ways to deal with high-dimensions in macroeconomics taking inspiration from the computer science, statistics, and computational sciences literature.
+My interest in [information diffusion]({{< ref "/project/information-diffusion/index.md" >}}) and [computational economics ]({{< ref "/project/datascience-computational/index.md" >}}) led me to examine better ways to deal with high-dimensionality in macroeconomics taking inspiration from computer science, statistics, and computational sciences literature.
 
 The broad goals of this research agenda are to:
-   - attack the curse of dimensionality in macroeconomics by **combining** the economic model new machine learning techniques.
-   - build models to tie together models of statical learning from the agent's perspective given non-trivial heterogeneity (i.e. using the "learning" models from the CS/Statistics literature **inside of** of the agent's problem, where the state may have high degrees of heterogeneity).  The main applications are models of [learning and inference in finance]({{< ref "/project/financial-frictions/index.md" >}}).
-   - chase especially useful spillovers that may come along the way (e.g. high-dimensional fixed-effects and sojourns into Bayesian methods)
 
-For macroeconomics, a hybrid approach is especially important: we need to use the flexible non-parametric features of neural networks/deep learning with constraints and models that come out of economics. As an analogy, consider "Physics Informed Neural Networks" and [SciML](https://sciml.ai/). 
+   - attack the curse of dimensionality in macroeconomics by **combining** economic models with new machine learning techniques.
+   - tie together models of statical learning from the agent's perspective given non-trivial heterogeneity (i.e., using "learning" models from computer science/statistics literature **inside of** the agent's problem, where the state may have high degrees of heterogeneity).  The main applications are models of [learning and inference in finance]({{< ref "/project/financial-frictions/index.md" >}}).
+   - chase especially useful spillovers that may come along the way (e.g., high-dimensional fixed-effects and sojourns into Bayesian methods).
 
-For more background, watch this excellent keynote from [Karen Willcox](https://kiwi.oden.utexas.edu/) 
-{{< youtube Bk4PJnjuPps >}}.    
+For macroeconomics, this hybrid approach is especially important: we need to use the flexible non-parametric features of neural networks/deep learning with constraints and models that come out of economics. As an analogy, consider "Physics Informed Neural Networks" and [SciML](https://sciml.ai/).
+
+For more background, watch this excellent keynote from [Karen Willcox](https://kiwi.oden.utexas.edu/)
+{{< youtube Bk4PJnjuPps >}}.
