@@ -3,7 +3,7 @@
 
 title: "A Grab Bag of Data Sources"
 subtitle: ""
-summary: "Links to publicly available data sources useful for research and datascience probjects"
+summary: "Links to publicly available data sources useful for research and datascience projects"
 tags: []
 categories: []
 date: 2020-09-06T07:19:46-07:00

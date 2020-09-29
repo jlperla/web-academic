@@ -77,7 +77,7 @@ If you do very well in 220, 221, and 302, then it is probably worth the risk to 
 
 ### Advanced Economics Courses
 
-Math courses have their own focus on theory and proofs. You should also learn more on how to use these tools, which can be a very different experience.  Economics courses are suitable to bridge the gap between math and how we actually use it in graduate program and beyond.  In particular, for your 4th year economics courses make sure to take (in order of importance, but you should take all if offereed)  
+Math courses have their own focus on theory and proofs. You should also learn more on how to use these tools, which can be a very different experience.  Economics courses are suitable to bridge the gap between math and how we actually use it in graduate program and beyond.  In particular, for your 4th year economics courses make sure to take (in order of importance, but you should take all if offered)  
 
 *   **ECON 420**: Optimization and Economic Theory
 *   **ECON 421**: Introduction to Game Theory and Applications
