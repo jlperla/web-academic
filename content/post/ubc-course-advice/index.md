@@ -3,7 +3,7 @@
 
 title: "UBC Math and Economics Course Advice"
 subtitle: ""
-summary: ""
+summary: "Not every top student should choose to get a PhD in economics or finance. But if you are considering it, then some advanced preparation can make your life easier"
 tags: []
 categories: []
 date: 2020-09-06T07:13:10-07:00
