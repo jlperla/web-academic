@@ -29,7 +29,6 @@ publishDate: '2020-09-17T13:19:59.050789Z'
 publication_types:
 - 9
 publication: '**R&R (2nd Round) at Econometrica**'
-url_pdf:  'perla_1.pdf'
 abstract: "This paper proposes a model where consumption bundle heterogeneity is derived from a network of connections between consumers and firms.  In it, consumers slowly become 'aware' of differentiated products, adding connections and expanding their choice sets.  Increasing network connectivity over an industry life cycle both decreases market power and increases the degree of sorting between consumers and firms.  When aggregated, this information friction creates a wedge in an otherwise standard neoclassical growth model where higher product obsolescence leads to stronger distortions.  Endogenizing the stochastic process for awareness using a model of directed advertising, I find two countervailing effects: (1) If firms are better able to target good matches, then there are benefits of sorting for consumers and the economy as a whole; and (2) a side effect of the directed advertising can be smaller choice sets, and hence greater market power."
 links:
   - name: Appendix
