@@ -28,6 +28,32 @@ gallery_item:
    caption: Nate
  - album: gallery
    image: PERLA-LJPHOTO-44.jpg
+   caption: Nate
+ - album: gallery
+   image: family.jpg
+   caption: Family   
+ - album: gallery
+   image: ada_portrait.jpg
+   caption: Ada
+ - album: gallery
+   image: nate_portrait_2.jpg
+   caption: Nate      
+ - album: gallery
+   image: ada_portrait_2.jpg
+   caption: Ada   
+ - album: gallery
+   image: nate_portrait.jpg
    caption: Nate   
+ - album: gallery
+   image: ada_portrait_3.jpg
+   caption: Ada
+ - album: gallery
+   image: nate_portrait_3.jpg
+   caption: Nate   
+ - album: gallery
+   image: nate_ada.jpg
+   caption: Nate and Ada     
+ - album: gallery
+   image: family_2.jpg
 ---
 {{< gallery >}}
