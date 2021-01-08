@@ -27,7 +27,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 projects: ["information-diffusion"]
-publishDate: '2021-01-17T13:19:59.050789Z'
+publishDate: '2021-01-07T13:19:59.050789Z'
 publication_types:
 - 2
 publication: '**Conditionally Accepted at Econometrica**'
