@@ -10,7 +10,7 @@ authors:
 - Michal Szkup
 categories: []
 date: '2020-08-15'
-lastmod: 2020-09-17T06:20:03-07:00
+lastmod: 2021-04-26T06:20:03-07:00
 featured: true
 draft: false
 
@@ -31,8 +31,10 @@ publishDate: '2020-09-17T13:19:59.050789Z'
 publication_types:
 - 9
 publication: '**NBER Working Paper**'
-abstract: We investigate how a combination of limited liability and preexisting debt distort firms’ investment and equity payout decisions. We show that equity holders have incentives to “double-sell” cash flows in default, leading to overinvestment, provided that the firm has preexisting debt and the ability to issue new claims to the bankruptcy value of the firm. In a repeated version of the model, we show that the inability to commit to not double-sell cash flows leads to heterogeneous investment distortions, where high leverage firms tend to overinvest but low leverage firms tend to underinvest. Permitting equity payouts financed by new debt mitigates overinvestment for high leverage firms, but raises bankruptcy rates and exacerbates low leverage firms’ tendency to underinvest—as the anticipation of equity payouts from future debt raises their cost of debt issuance. Finally, we provide empirical evidence consistent with the model.
+abstract: We show that limited liability and preexisting debt lead to heterogeneous investment distortions, where high leverage firms tend to overinvest in the manner of zombie firms but low leverage firms tend to underinvest. In a model with a single investment opportunity, limited liability provides equity holders with an incentive to ``double-sell'' cash flows in default and encourages overinvestment, provided that the firm has preexisting debt and can finance new investment with debt. With repeated investment opportunities, high leverage firms continue to overinvest, but low leverage firms tend to underinvest because debt investors anticipate equity holders' inability to commit to not double-sell cash flows. Restricting debt financed equity payouts has ambiguous efficiency implications, mitigating low leverage firms’ underinvestment but exacerbating overinvestment at highly levered firms. Consistent with model predictions, we find that highly levered firms invest more than low leverage firms in Compustat data 2004-2018, despite lower profitability and investment opportunities.
 links:
   - name: Slides
     url: 'perla_pflueger_szkup_presentation.pdf'    
+  - name: Online Appendix
+    url: 'perla_pflueger_szkup_appendix.pdf'
 ---
