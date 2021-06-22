@@ -4,10 +4,10 @@
 title: "Exploiting Symmetry in High-Dimensional Dynamic Programming"
 authors:
 - Jesus Fernandez-Villaverde
-- Mahdi Kahou
+- Mahdi Ebrahimi Kahou
 - Jesse Perla
 - Arnav Sood 
-date: 2020-09-18T10:21:19-07:00
+date: 2021-06-21T10:21:19-07:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -17,20 +17,20 @@ publishDate: 2020-09-18T10:21:19-07:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["10"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: '**Work in Progress**'
+publication: '**Working Paper**'
 publication_short: ""
 
-abstract: ""
+abstract: "We propose a new method for solving high-dimensional dynamic programming problems and recursive competitive equilibria with a large (but finite) number of heterogeneous agents using deep learning. The curse of dimensionality is avoided due to four complementary techniques (1) exploiting symmetry in the approximate law of motion and the value function; (2) constructing a concentration of measure to calculate high-dimensional expectations using a single Monte Carlo draw from the distribution of idiosyncratic shocks; (3) sampling methods to ensure the model fits along manifolds of interest; and (4) selecting the most generalizable over-parameterized deep learning approximation without calculating the stationary distribution or applying a transversality condition. As an application, we solve a global solution of a multi-arm version of the classic Lucas and Prescott (1971) model of investment under uncertainty. First, we compare the solution against a linear-quadratic Gaussian version for validation and benchmarking. Next, we solve nonlinear versions with aggregate shocks. Finally, we describe how our approach applies to a large class of models in economics."
 
 # Summary. An optional shortened abstract.
 summary: "We provide a new method for solving high-dimensional dynamic programming problems, and recursive competitive equilibria with a large (but finite) number of heterogenous agents. "
 
 tags: []
 categories: []
-featured: false
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
