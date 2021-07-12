@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Assistant Professor of Economics
+role: Associate Professor of Economics
 
 # Organizations/Affiliations
 organizations:
