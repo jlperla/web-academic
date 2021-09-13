@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: 'QuantEcon Datascience: Introduction to Economic Modeling and Data Science'
+title: 'Introduction to Economic Modeling and Data Science'
 summary: 'This online textbook presents a series of lectures on programming, data science, and economics.'
 authors:
 - Chase Coleman
@@ -39,5 +39,10 @@ links:
   - name: Website
     url: https://datascience.quantecon.org/
   - name: Notebooks
-    url: https://github.com/QuantEcon/quantecon-notebooks-datascience
+    url: https://github.com/QuantEcon/lecture-datascience.notebooks
+  - icon_pack: fab
+    icon: github
+    name: Source
+    url: https://github.com/QuantEcon/lecture-datascience.myst
+
 ---

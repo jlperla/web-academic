@@ -38,9 +38,9 @@ links:
   - name: Website
     url: https://julia.quantecon.org/
   - name: Notebooks
-    url: https://github.com/QuantEcon/quantecon-notebooks-julia
+    url: https://github.com/QuantEcon/lecture-julia.notebooks
   - icon_pack: fab
     icon: github
     name: Source
-    url: https://github.com/QuantEcon/lecture-source-jl
+    url: https://github.com/QuantEcon/lecture-julia.myst
 ---
