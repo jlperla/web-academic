@@ -7,7 +7,7 @@ authors:
 - Mahdi Ebrahimi Kahou
 - Jesse Perla
 - Arnav Sood 
-date: 2021-06-21T10:21:19-07:00
+date: 2021-12-06T10:21:19-07:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -23,7 +23,7 @@ publication_types: ["3"]
 publication: '**Working Paper**'
 publication_short: ""
 
-abstract: "We propose a new method for solving high-dimensional dynamic programming problems and recursive competitive equilibria with a large (but finite) number of heterogeneous agents using deep learning. The curse of dimensionality is avoided due to four complementary techniques (1) exploiting symmetry in the approximate law of motion and the value function; (2) constructing a concentration of measure to calculate high-dimensional expectations using a single Monte Carlo draw from the distribution of idiosyncratic shocks; (3) sampling methods to ensure the model fits along manifolds of interest; and (4) selecting the most generalizable over-parameterized deep learning approximation without calculating the stationary distribution or applying a transversality condition. As an application, we solve a global solution of a multi-arm version of the classic Lucas and Prescott (1971) model of investment under uncertainty. First, we compare the solution against a linear-quadratic Gaussian version for validation and benchmarking. Next, we solve nonlinear versions with aggregate shocks. Finally, we describe how our approach applies to a large class of models in economics."
+abstract: "We propose a new method for solving high-dimensional dynamic programming problems and recursive competitive equilibria with a large (but finite) number of heterogeneous agents using deep learning. We avoid the curse of dimensionality thanks to three complementary techniques: (1) exploiting symmetry in the approximate law of motion and the value function; (2) constructing a concentration of measure to calculate high-dimensional expectations using a single Monte Carlo draw from the distribution of idiosyncratic shocks; and (3) designing and training deep learning architectures that exploit symmetry and concentration of measure. As an application, we find a global solution of a multi-firm version of the classic Lucas and Prescott (1971) model of investment under uncertainty. First, we compare the solution against a linear-quadratic Gaussian version for validation and benchmarking. Next, we solve the nonlinear version where no accurate or closed-form solution exists. Finally, we describe how our approach applies to a large class of models in economics."
 
 # Summary. An optional shortened abstract.
 summary: "We provide a new method for solving high-dimensional dynamic programming problems, and recursive competitive equilibria with a large (but finite) number of heterogenous agents. "
