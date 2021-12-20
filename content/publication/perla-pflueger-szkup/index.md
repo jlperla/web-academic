@@ -9,8 +9,8 @@ authors:
 - Carolin Pflueger
 - Michal Szkup
 categories: []
-date: '2020-08-15'
-lastmod: 2021-04-26T06:20:03-07:00
+date: '2021-12-19'
+lastmod: 2021-12-19T06:20:03-07:00
 featured: true
 draft: false
 
@@ -27,7 +27,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 projects: ["financial-frictions"]
-publishDate: '2020-09-17T13:19:59.050789Z'
+publishDate: '2020-12-19T13:19:59.050789Z'
 publication_types:
 - 9
 publication: '**NBER Working Paper**'
