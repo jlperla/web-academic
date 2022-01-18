@@ -66,6 +66,7 @@ To plan for getting into a top PhD program directly out of your undergrad, you c
 At UBC, the analysis course is **MATH 320:** Real Variables I
 
 *   While you could only do MATH 200 and MATH 220 to get into this class, it is strongly advised to do MATH221, MATH302, or both.  You are far better off getting a good mark in 221 and 302 with no 320 than no 221 or 302 and a mediocre mark in 320.
+*   A student also pointed out that there is a soft-lock of some sort where you cannot take MATH226 if you have taken MATH200.  Because of that, if you get below the <80% in MATH220 and have taken MATH200, there is no direct way into  MATH320.  I would talk to math advising if you are worried.e
 *   The math department curves grades and uses this class as its own filter for graduate school, so you need to work very hard to keep in the upper proportion of the class. Ensure your other workload isn't excessive.
 *   The class average is usually around 68-70%
 
