@@ -31,7 +31,9 @@ This is a newly proposed course which will be taught as **ECON 407 in Spring 202
 ## Calendar Description:
 (3 credits course) Computational tools used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth
 
-**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 323, CPSC 103, CPSC 110 and MATH 221
+**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 323, CPSC 103, CPSC 110 and one of ECON 325, ECON 327, STAT 200 and MATH 221
+
+That is, beyond the intermediate micro and macro courses students are expected to have an understanding of probability from their econometrics or statistics courses, basic programming experience with Python, Matlab, or similar languages, and a class in the basics of matrices and linear algebra.
 
 ## Course Overview
 
@@ -79,6 +81,43 @@ Students are expected to have a laptop for in-class exploration and quizzes.
 
 
 ### Week 2: Linear algebra and basic scientific computing (LO1)
-   - Topics include [Arrays and Related Types](https://julia.quantecon.org/getting_started_julia/fundamental_types.html) and related topics in implementing linear algebra.  In addition, students will review [Optimizers and Solvers](https://julia.quantecon.org/more_julia/optimization_solver_packages.html).  Interested students will be given bonus material in [Generic Programming](https://julia.quantecon.org/getting_started_julia/introduction_to_types.html)
+   - Topics include [Arrays and Related Types](https://julia.quantecon.org/getting_started_julia/fundamental_types.html) and related topics in implementing [Linear Algebra](https://julia.quantecon.org/tools_and_techniques/linear_algebra.html).  In addition, students will review [Optimizers and Solvers](https://julia.quantecon.org/more_julia/optimization_solver_packages.html).  Interested students will be given bonus material in [Generic Programming](https://julia.quantecon.org/getting_started_julia/introduction_to_types.html)
    - At the end of the week students will feel comfortable: working with matrices, vectors, and arrays; solving linear systems and calculating eigenvalues; optimizing unconstrained and constrained functions; and solving systems of equations 
    - **Problem Set 1 Posted** - Basic loops, linear algebra, and optimization
+
+### Week 3: Geometric Series and Stochastic Processes (LO2)
+- https://julia.quantecon.org/tools_and_techniques/geom_series.html
+- https://python.quantecon.org/scalar_dynam.html
+- Simulating random processes and visualizing CLT and ergodic distributions
+
+### Week 4: Dynamics of Wealth and Distributions
+- https://python.quantecon.org/ar1_processes.html
+- https://python.quantecon.org/wealth_dynamics.html
+
+### Week 5: Linear State Space Models Part (LO3)
+- [Linear Gaussian State Space Models](https://julia.quantecon.org/tools_and_techniques/linear_models.html)
+
+### Week 6: Permanent Income Model
+- https://julia.quantecon.org/dynamic_programming/perm_income.html
+
+### Week 7: Markov Chains and Asset Pricing
+- https://julia.quantecon.org/tools_and_techniques/finite_markov.html
+### Week 8: Models of Unemployment
+- Apply markov chains https://julia.quantecon.org/multi_agent_models/lake_model.html
+### Week 9: Rational Expectations and Firm Equilibria
+- https://julia.quantecon.org/multi_agent_models/rational_expectations.html
+### Week 10: More on Asset Pricing
+- https://julia.quantecon.org/multi_agent_models/markov_asset.html
+### Week 11: Lucas Trees
+- https://julia.quantecon.org/multi_agent_models/lucas_model.html
+### Week 12: Recursive Equilibria and the McCall Search Model
+- https://julia.quantecon.org/dynamic_programming/mccall_model.html
+
+### Week 13: Cake Eating Problem
+- https://python.quantecon.org/cake_eating_problem.html
+- https://python.quantecon.org/cake_eating_numerical.html
+### Week 14. Cass Koopmans/Neoclassical Growth
+- https://python.quantecon.org/cass_koopmans_1.html
+- https://python.quantecon.org/cass_koopmans_2.html
+### Week 15 Optimal Growth Model
+- https://julia.quantecon.org/dynamic_programming/optgrowth.html
