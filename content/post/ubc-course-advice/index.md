@@ -32,9 +32,11 @@ Not every top student should choose to get a PhD in economics or finance. But if
 
 Keep in mind that this advice is **not sufficient** to get into a top program. You could have perfect grades in all of your classes, but there are lots of students with high grades. The first-order concern for getting into graduate programs (both MA and PhD) is to get good letters of reference from research faculty. It does not matter how many math classes you have taken if you don't have an economist saying you would make a good researcher. Also keep in mind that good reference letters are more than just "so-and-so got a 90% in my class". Research experience (such as being a research assistant for a professor, or getting a pre-doctoral fellowship) is also much more useful than taking particular math classes.
 
-### Math Classes for MA Programs
+### Math Classes for Masters Programs
 
 The letters still matter, but if you think you would do a terminal MA (and not apply directly for a PhD), then there is less benefit in loading up on math courses. Regardless, take **MATH 200** (Calculus 3) and **MATH 221** (Linear Algebra). If you take more math classes, then do it for your interest or in order to make the option of getting a PhD in the future easier.
+
+An exception is that there seems to be some specialized masters programs that are intended to be extremely rigorous and an alternative to the predoc RA route.  I don't know students who have taken NYUs [MS in Quantitative Economics](https://as.nyu.edu/content/nyu-as/as/departments/quantitative-economics.html) but it seems part of its design to be trying to fulfill that purpose.  But this, and potentially similar programs, may be very expensive so I suggest doing your research carefully and still applying for predoc programs.
 
 ### Math Classes on your Transcript for PhD Programs
 
@@ -43,12 +45,10 @@ One indicator for getting into top economics/finance PhD programs directly from 
 The converse is true as well: **doing poorly** on tough math courses **is a terrible signal** that would significantly hurt your chance of getting into top programs. You are better off not taking hard math classes unless you can do well in them.
 
   
-
 Also, in many ways, our theoretical 400 level economics courses (described below) are a better direct technical preparation, and are much more useful for getting letter writers. Taking math classes should be done in addition to those courses, not instead of them. With that said, for many fields you will find the tools of advanced mathematics classes, and the rigor of doing proofs, directly useful.
-
   
 
-To plan for getting into a top PhD program directly out of your undergrad, you could (1) try to get a good mark on a difficult math course on your transcript (or a number of less difficult ones), and (2) use it as an indicator _to yourself_ of whether you are well suited to graduate economics or finance.  This will require some early planning in your course selection
+Getting into a top PhD program directly out of your undergrad is difficult and with the massive number of predoc programs the strategy is not obvious.  But to maximize the chances from your undergraduate courses you could (1) try to get a good mark on a difficult math course on your transcript (or a number of less difficult ones), and (2) use it as an indicator _to yourself_ of whether you are well suited to graduate economics or finance.  This will require some early planning in your course selection
 
 ### Ordered Course Selection (for students interested in a PhD)
 
@@ -88,4 +88,4 @@ These should be taken even if you don't think you are interested in doing theory
 
   
 
-An alternative strategy for most people to taking real variables may be to ensure that you do well in **ECON 402, ECON 421, ECON 425, MATH 301, MATH 220, MATH 221, and MATH 302**. But you are better off doing all of these as well as **MATH 320** (which you would likely be well prepared for after taking those courses).
+An alternative strategy for most people to taking real variables may be to ensure that you do well in **ECON 420, ECON 421, ECON 425, MATH 301, MATH 220, MATH 221, and MATH 302**. But you are better off doing all of these as well as **MATH 320** (which you would likely be well prepared for after taking those courses).
