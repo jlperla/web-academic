@@ -34,7 +34,7 @@ This is a newly proposed course which will be taught as **ECON 407 in Spring 202
 
 (3 credits course) Computational tools used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth
 
-**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 325, ECON 327, STAT 200 and MATH 221 and one of ECON 323, CPSC 110, CPSC 107, CPSC 103, MATH 210, PHYS 210, COMM 337
+**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 325, ECON 327, STAT 200, STAT 201, STAT 203, COMM 291 and MATH 221 and one of ECON 323, CPSC 110, CPSC 107, CPSC 103, MATH 210, COMM 337
 
 To summarize: beyond the intermediate micro and macro courses required for 4th year economics electives, students are expected to have an understanding of probability from their econometrics or statistics courses, basic programming experience with Python, Matlab, or similar languages (i.e., Stata and introductory R are insufficient), and a class in the fundamentals of matrices and linear algebra (which is itself a prerequisite for ECON 323).  Students who learning programming through functional (e.g., a Lisp) or compiled imperative languages (e.g., C or Fortran) should also be able to keep up with the programming requirements.
 ## Course Overview
@@ -149,10 +149,9 @@ Note: a few of the linked lectures are currently in python, and a port is under 
 ### Week 15: Optimal Growth Model (LO7)
 - Topics include [Stochastic Optimal Growth Model](https://julia.quantecon.org/dynamic_programming/optgrowth.html)
 - At the end of the week students will be able to solve growth models with a single type of good and stochastic productivity.
-- **Problem Set 6 Due** - dynamic programming and transition dynamics of growth models.
-
-
-
+- **Problem Set 6 Due** - solving stochastic dynamic programming and simulating  transition dynamics of growth models.
+- **Final Exam** - according to calendar schedule
+- 
 ## Policies
 
 **Missed Exam Policy:** You are responsible for ensuring that you take these exams as scheduled; no make-up exams will be given.
