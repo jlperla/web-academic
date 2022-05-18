@@ -34,8 +34,7 @@ This is a newly proposed course which will be taught as **ECON 407 in Spring 202
 
 (3 credits course) Computational tools used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth
 
-**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 323, CPSC 103, CPSC 110 and one of ECON 325, ECON 327, STAT 200 and MATH 221
-
+**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 325, ECON 327, STAT 200 and MATH 221 and one of ECON 323, CPSC 110, CPSC 107, CPSC 103, MATH 210, PHYS 210, COMM 337
 
 To summarize: beyond the intermediate micro and macro courses required for 4th year economics electives, students are expected to have an understanding of probability from their econometrics or statistics courses, basic programming experience with Python, Matlab, or similar languages (i.e., Stata and introductory R are insufficient), and a class in the fundamentals of matrices and linear algebra (which is itself a prerequisite for ECON 323).  Students who learning programming through functional (e.g., a Lisp) or compiled imperative languages (e.g., C or Fortran) should also be able to keep up with the programming requirements.
 ## Course Overview
@@ -91,7 +90,7 @@ The weighting in the grade is:
 The problem sets will start off short and easy to help those with less programming experience, and then build in complexity.
 
 ## Computational Infrastructure and Programming Language
-While students will have experience with another programming language such as Python or Matlab from their prerequisities, this course will be taught using [Julia](https://julialang.org/).  Beyond being an excellent language for technical computing for macroeconomics, Julia provides a new set of programming principles that will broaden the student's knowledge of computing.  This will help them in both providing a better differentiated CV or for working as a research assistant for those professors who require more significant computational expertise.
+While students will have experience with another programming language such as Python or Matlab from their prerequisities, this course will be taught using [Julia](https://julialang.org/).  Beyond being an excellent language for technical computing for macroeconomics, Julia provides a new set of programming principles that will broaden the student's knowledge of computing.  This will help them students by both providing a better differentiated resume, broader skills, and more opportunities to work as a research assistant for researchers requiring significant computational expertise.
 
 Students can install a Julia installation on their laptop by following [these instructions](https://julia.quantecon.org/getting_started_julia/getting_started.html).  While one can use Julia entirely from Jupyter notebook, we will also install VS Code and introduce basic github/vscode usage as well.
 
