@@ -34,9 +34,9 @@ This is a newly proposed course which will be taught as **ECON 407 in Spring 202
 
 (3 credits course) Computational tools used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth
 
-**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 323, CPSC 103, CPSC 107, CPSC 110, MATH 210, COMM 337
+**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 323, CPSC 103, CPSC 107, CPSC 110, MATH 210, COMM 337 and MATH 221
 
-To summarize: beyond the intermediate micro and macro courses required for 4th year economics electives, students are expected to have an programming experience with Python, Matlab, or similar languages (i.e., Stata and introductory R are insufficient).  Students who learning programming through functional (e.g., a Lisp) or compiled imperative languages (e.g., C or Fortran) should also be able to keep up with the programming requirements.  ECON 323 and equivalent courses will have secondary pre-requisites for understanding matrix algebra and basic probability.
+To summarize: beyond the intermediate micro and macro courses required for 4th year economics electives, students are expected to have an programming experience with Python, Matlab, or similar languages (i.e., Stata and introductory R are insufficient).  Students who learning programming through functional (e.g., a Lisp) or compiled imperative languages (e.g., C or Fortran) should also be able to keep up with the programming requirements.  Finally, students should have  MATH 221 or an equivalent course in matrix algebra - which would already fulfilled by those taking ECON 323.
 ## Course Overview
 
 This is an introductory course in the computational tools used in macroeconomics.
