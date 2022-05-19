@@ -27,7 +27,9 @@ image:
 projects: ["datascience-computational"]
 ---
 
-This is a newly proposed course which will be taught as **ECON 407 in Spring 2023**  as a pilot.  See additional **strongly recommended** prerequisites in addition to ECON407 requirements.
+This is a newly proposed course which will be taught as **ECON 407 in Spring 2023**  as a pilot.
+
+See below for additional **strongly recommended** prerequisites.  To summarize: beyond the intermediate micro students are expected to have a ECON 323 or a similar programming course using Python, Matlab, or similar languages (i.e., Stata and R are insufficient).  Finally, students should have  MATH 221 or an equivalent course in matrix algebra - which would already fulfilled by those taking ECON 323.
 
 ## Calendar Description:
 **ECON 4XX: Computational Methods in Macroeconomics**
@@ -36,10 +38,9 @@ This is a newly proposed course which will be taught as **ECON 407 in Spring 202
 
 **Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 323, CPSC 103, CPSC 107, CPSC 110, MATH 210, COMM 337 and MATH 221
 
-To summarize: beyond the intermediate micro and macro courses required for 4th year economics electives, students are expected to have an programming experience with Python, Matlab, or similar languages (i.e., Stata and introductory R are insufficient).  Students who learning programming through functional (e.g., a Lisp) or compiled imperative languages (e.g., C or Fortran) should also be able to keep up with the programming requirements.  Finally, students should have  MATH 221 or an equivalent course in matrix algebra - which would already fulfilled by those taking ECON 323.
 ## Course Overview
 
-This is an introductory course in the computational tools used in macroeconomics.
+This is an introductory course in the computational tools used in macroeconomics.  Students are **not** required to have taken intermediate macroeconomics in order to enrol. 
 
 Models in macroeconomics and financial economics are constructed from a core set of tools which provide a model of individual decisions while still maintaining an internal consistency between the decisions of many individuals in an economy.  Some of the common features of these models include
 
