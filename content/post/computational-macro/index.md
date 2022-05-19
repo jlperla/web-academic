@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "ECON 4XX: Computational and Quantitative Macroeconomics"
+title: "ECON 408: Computational and Quantitative Macroeconomics"
 subtitle: ""
 summary: ""
 tags: []
@@ -29,32 +29,32 @@ projects: ["datascience-computational"]
 
 This is a newly proposed course which will be taught as **ECON 407 in Spring 2023**  as a pilot.
 
-See below for additional **strongly recommended** prerequisites.  To summarize: beyond the intermediate micro students are expected to have a ECON 323 or a similar programming course using Python, Matlab, or similar languages (i.e., Stata and R are insufficient).  Finally, students should have  MATH 221 or an equivalent course in matrix algebra - which would already fulfilled by those taking ECON 323.
+See below for additional **strongly recommended** prerequisites.  To summarize: beyond the intermediate micro students are expected to have a ECON 323 or a similar programming course using Python, Matlab, or similar languages (i.e., Stata and R are insufficient).  Finally, students should have  MATH 221 or an equivalent course in matrix algebra---which would already fulfilled by those taking ECON 323.
 
 ## Calendar Description:
-**ECON 4XX: Computational Methods in Macroeconomics**
+**ECON 408: Computational Methods in Macroeconomics**
 
 (3 credits course) Computational tools used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth
 
-**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 302, ECON 305, ECON 309 and one of ECON 323, CPSC 103, CPSC 107, CPSC 110, MATH 210, COMM 337 and MATH 221
+**Prerequisites**: One of ECON 301, ECON 304, ECON 308 and one of ECON 323, CPSC 103, CPSC 107, CPSC 110, MATH 210, COMM 337 and MATH 221
 
 ## Course Overview
 
 This is an introductory course in the computational tools used in macroeconomics.  Students are **not** required to have taken intermediate macroeconomics in order to enrol. 
 
-Models in macroeconomics and financial economics are constructed from a core set of tools which provide a model of individual decisions while still maintaining an internal consistency between the decisions of many individuals in an economy.  Some of the common features of these models include
+Models in macroeconomics and financial economics are constructed from a core set of tools which model each agents' decisions while maintaining an internal consistency between the decisions of complicated distributions of other agents in an economy.  Some of the common features of these models include:
 
 1. __dynamic and forward looking decisions__: If I consume less today, I can save more for tomorrow;
 2. __randomness and uncertainty about the future__: If reject a job offer, I am not sure when the next offer will occur;
 3. __prices and resources reflecting the collective decisions of other agents__: The wage I am offered depends on the number of similar workers I am competing with, the intensity which the unemployed search for jobs, and the demand for my skills from firms;
 4. __social learning from other agents' with information aggregated through prices__: If many others consider a particular equity or bond asset a good buy, then I can infer this by the price of the asset itself; and
-5. __distributions and heterogeneity in the economy itself influences decisions and prices__: If the distribution of income is askew and there are many poor agents living hand-to-mouth, government policy such as sending out stimulus cheques has a different effect on inflation and customer welfare than if every person had similar incomes.
+5. __distributions and heterogeneity in the economy influencing decisions and prices__: If the distribution of income is askew and there are many poor agents living hand-to-mouth, government policy such as sending out stimulus cheques has a different effect on inflation and customer welfare than if every person had similar incomes.
 
-A difficulty inherent to macroeconomics is that often model features must hold at the same time, which makes it difficult to do counter-factual experiments with ``partial-equilibrium''---i.e., changing one price or element of the model in isolation---because of the interconnection of decisions, prices, and distributions.   However, by writing formal models in mathematics, you can conduct policy experiments and interpret the data while still ensuring self-consistency.  Using precise mathematical language will (1) uncover unanticipated consequences implicit in your assumptions; (2) keep everyone honest; (3) provide a framework to investigate changes in assumptions; (4) provide a framework to nest models and add enough "reality" to do quantitative analysis.
+A difficulty inherent to macroeconomics is that these features of the model interact and must all simultaneously hold---what economists would think of broadly as "equilibrium conditions".  This makes it difficult to do counter-factual experiments with "partial-equilibrium" in macroeconomics---i.e., changing one price or element of the model in isolation---because of the interconnection of decisions, prices, and distributions.   However, by writing formal models in mathematics, we can conduct policy experiments and interpret data while still ensuring all of these conditions for self-consistency.  Using precise mathematical language will (1) uncover unanticipated consequences implicit in your assumptions; (2) keep everyone honest; (3) provide a framework to investigate changes in assumptions; and (4) allow disciplined nesting of models to add enough "reality" for quantitative analysis.
 
 The downside is that while this set of mathematical tools provides a rich set of economic theories that can be explored and tested against the data, the inherent difficulty of dynamic models means that we may usually need to solve them approximately and on a computer.
 
-This course will explore these sorts of theoretical models in conjunction with the computational tools to solve and simulate them.  We will learn using the Julia programming language - a modern language for scientific and technical computing which will also help teach a new, high-performance programming language to compliment their existing background in Python or Matlab from other courses.
+This course will explore these sorts of theoretical models in conjunction with the computational tools to solve and simulate them.  We will learn using the Julia programming language---a modern language for scientific and technical computing which students can use to compliment their existing background in Python or Matlab from other courses.
 
 ## Learning Outcomes
 
@@ -69,14 +69,14 @@ By the end of the course, students will be able to
 7. define and implement dynamic models of growth (LO7)
 
 ## Textbook and Materials
-The core textbook is the online, open-source textbook [Quantitative Economics with Julia](https://julia.quantecon.org/) by Jesse Perla, Thomas J. Sargent and John Stachurski.  While it has both graduate-level and undergraduate-level material, in cases where material in the course is too advanced, we will choose a subset and adapt lecture materials to be appropriate for the level---where advanced students can examine the topics in more formality and detail.
+The core textbook is the online, open-source textbook [Quantitative Economics with Julia](https://julia.quantecon.org/) by Jesse Perla, Thomas J. Sargent and John Stachurski which contains both graduate- and undergraduate-level material.  In cases where material in the course is too advanced, we will choose a subset and adapt lecture materials to be appropriate for the level---where advanced students can examine the topics in more formality and detail.
 
 The textbook includes both theory and code, and a set of [Jupyter notebooks](https://github.com/QuantEcon/lecture-julia.notebooks).   
 
 ## Course Format
 The course will meet for two 1.5 hours lectures per week for an in-class lecture. While there will not be a formal "lab", the instructor may go through coding examples in class. A teaching assistant will be available to help with the class size of approximately 50 students.
 
-While the coding is intended to stay at as basic level as possible at first, students are expected to start reasonably proficient in Matlab, Python, Julia, and similar languages.  After the first few weeks the lectures will tend to focus on teaching the theory where code implementations done largely in the assignments.  At that point, much of the coding practice will be done in the problem sets, leaving sufficient time in-class for macroeconomic theory.
+While the coding is intended to stay at as basic level at first, students are expected to start reasonably proficient in Matlab, Python, Julia, and similar languages.  After the first few weeks the lectures will tend to focus on teaching the theory where code implementations done largely in the assignments.  At that point, much of the coding practice will be done in the problem sets, leaving most class-time for connecting the macroeconomic models to the methods.
 
 All materials will be provided on http://canvas.ubc.ca and the open-source materials are on GitHub.  Students are expected to have a laptop for in-class exploration and exams.
 
@@ -96,7 +96,7 @@ The problem sets will start off short and easy to help those with less programmi
 ## Computational Infrastructure and Programming Language
 While students will have experience with another programming language such as Python or Matlab from their prerequisities, this course will be taught using [Julia](https://julialang.org/).  Beyond being an excellent language for technical computing and popular among macroeconomists, Julia provides a new set of programming principles that will broaden the student's knowledge of computing.  This will help them students by both providing a better differentiated resume, broader skills, and more opportunities to work as a research assistant for researchers requiring significant computational expertise.
 
-Students can install a Julia on their laptop by following [these instructions](https://julia.quantecon.org/getting_started_julia/getting_started.html).  While one can use Julia entirely from just Jupyter notebook, we will also install VS Code and introduce basic [GitHub](https://github.com/) and [VS Code](https://code.visualstudio.com/) usage as well to help broaden the students exposure to computational tools.
+Students can install a Julia on their laptop by following [these instructions](https://julia.quantecon.org/getting_started_julia/getting_started.html).  While one can use Julia entirely from just Jupyter notebook, we will also introduce basic [GitHub](https://github.com/) and [VS Code](https://code.visualstudio.com/) usage as well to help broaden the students exposure to computational tools.
 
 ## Course Outline (by Week)
 Note: a few of the linked lectures are currently in Python, and a port is under way.
@@ -113,7 +113,7 @@ Note: a few of the linked lectures are currently in Python, and a port is under 
 
 ### Week 3: Geometric Series and Stochastic Processes (LO2)
 
-  - Topics include [Geometric Series](https://julia.quantecon.org/tools_and_techniques/geom_series.html) [Dynamics in One Dimension](https://python.quantecon.org/scalar_dynam.html)
+  - Topics include [Geometric Series](https://julia.quantecon.org/tools_and_techniques/geom_series.html) and [Dynamics in One Dimension](https://python.quantecon.org/scalar_dynam.html)
   - At the end of the week students will understand how to calculate present discounted values, work with Keynesian money-multipliers, and simulating random processes.
   - **Problem Set 1 Due** - basic loops, linear algebra, and optimization problems.
 
@@ -182,7 +182,7 @@ Note: a few of the linked lectures are currently in Python, and a port is under 
   - Topics include [Stochastic Optimal Growth Model](https://julia.quantecon.org/dynamic_programming/optgrowth.html)
   - At the end of the week students will be able to solve growth models with a single type of good and stochastic productivity.
   - **Problem Set 6 Due** - solving stochastic dynamic programming and simulating  transition dynamics of growth models.
-  - **Final Exam** - according to calendar schedule
+  - **Final Exam** - according to calendar schedule.
  
 ## Policies
 
