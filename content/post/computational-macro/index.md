@@ -42,6 +42,7 @@ To summarize: beyond the intermediate micro and macro courses required for 4th y
 This is an introductory course in the computational tools used in macroeconomics.
 
 Models in macroeconomics and financial economics are constructed from a core set of tools which provide a model of individual decisions while still maintaining an internal consistency between the decisions of many individuals in an economy.  Some of the common features of these models include
+
 1. __dynamic and forward looking decisions__: If I consume less today, I can save more for tomorrow;
 2. __randomness and uncertainty about the future__: If reject a job offer, I am not sure when the next offer will occur;
 3. __prices and resources reflecting the collective decisions of other agents__: The wage I am offered depends on the number of similar workers I am competing with, the intensity which the unemployed search for jobs, and the demand for my skills from firms;
@@ -57,6 +58,7 @@ This course will explore these sorts of theoretical models in conjunction with t
 ## Learning Outcomes
 
 By the end of the course, students will be able to
+
 1. program using tools from linear algebra, probability, and optimization in the Julia programming language (LO1)
 2. simulate and analyze stochastic processes and understand the evolution of the wealth distribution (LO2)
 3. describe economic dynamics as a linear state space model and solve them numerically (LO3)
@@ -83,7 +85,8 @@ The only way to learn how to apply programming to economic problems is practice.
 The midterm and final will be in class and combine both theory and computations, with the exam submitted via a Jupyter notebook.
 
 The weighting in the grade is:
-- 6 Problem sets: 30% (total)
+
+- Six Problem sets: 30% (total)
 - Midterm exam: 30%
 - Final exam: 40%
 
@@ -96,74 +99,105 @@ Students can install a Julia on their laptop by following [these instructions](h
 
 ## Course Outline (by Week)
 Note: a few of the linked lectures are currently in Python, and a port is under way.
+
 ### Week 1: Introduction to Julia and programming for economics (LO1)
 
    - Topics include: [Getting Started](https://julia.quantecon.org/getting_started_julia/getting_started.html) and [Julia Essentials](https://julia.quantecon.org/getting_started_julia/julia_essentials.html)
    - At the end of the week students will have reviewed the basic setup of the Julia programming language and can comfortably accomplish simple tasks as they would in to Python or Matlab.
 
 ### Week 2: Linear algebra and basic scientific computing (LO1)
+
    - Topics include [Arrays and Related Types](https://julia.quantecon.org/getting_started_julia/fundamental_types.html) and related topics in implementing [Linear Algebra](https://julia.quantecon.org/tools_and_techniques/linear_algebra.html).  In addition, students will review [Optimizers and Solvers](https://julia.quantecon.org/more_julia/optimization_solver_packages.html).  Interested students can review bonus material in [Generic Programming](https://julia.quantecon.org/getting_started_julia/introduction_to_types.html) but it wouldn't be required or tested.
    - At the end of the week students will feel comfortable working with matrices, vectors, and arrays; solving linear systems and calculating eigenvalues; optimizing unconstrained and constrained functions; and solving systems of equations.
+
 ### Week 3: Geometric Series and Stochastic Processes (LO2)
-- Topics include [Geometric Series](https://julia.quantecon.org/tools_and_techniques/geom_series.html) [Dynamics in One Dimension](https://python.quantecon.org/scalar_dynam.html)
-- At the end of the week students will understand how to calculate present discounted values, work with Keynesian money-multipliers, and simulating random processes.
-- **Problem Set 1 Due** - basic loops, linear algebra, and optimization problems.
+
+  - Topics include [Geometric Series](https://julia.quantecon.org/tools_and_techniques/geom_series.html) [Dynamics in One Dimension](https://python.quantecon.org/scalar_dynam.html)
+  - At the end of the week students will understand how to calculate present discounted values, work with Keynesian money-multipliers, and simulating random processes.
+  - **Problem Set 1 Due** - basic loops, linear algebra, and optimization problems.
+
 ### Week 4: Dynamics of Wealth and Distributions (LO2)
-- Topics include [AR1 Processes](https://python.quantecon.org/ar1_processes.html) and [Wealth Distribution Dynamics](https://python.quantecon.org/wealth_dynamics.html)
-- At the end of the week students will better understand ergodic distributions, measures of inequality, and how to simulate the dynamics of the wealth distribution.
+
+  - Topics include [AR1 Processes](https://python.quantecon.org/ar1_processes.html) and [Wealth Distribution Dynamics](https://python.quantecon.org/wealth_dynamics.html)
+  - At the end of the week students will better understand ergodic distributions, measures of inequality, and how to simulate the dynamics of the wealth distribution.
+
 ### Week 5: Linear State Space Models Part (LO3)
-- Topics include [Linear State Space Models](https://julia.quantecon.org/tools_and_techniques/linear_models.html)
-- At the end of this week students will understand how to describe processes such as asset pricing and consumption smoothing as linear-state space models, simulate them, and calculate present-discounted values using those stochastic processes.
-- **Problem Set 2 Due** - calculating present discounted values and simulating univariate asset pricing models, simulating and calculating dynamics of the wealth distribution.
+
+  - Topics include [Linear State Space Models](https://julia.quantecon.org/tools_and_techniques/linear_models.html)
+  - At the end of this week students will understand how to describe processes such as asset pricing and consumption smoothing as linear-state space models, simulate them, and calculate present-discounted values using those stochastic processes.
+  - **Problem Set 2 Due** - calculating present discounted values and simulating univariate asset pricing models, simulating and calculating dynamics of the wealth distribution.
+
 ### Week 6: Permanent Income Model (LO3)
-- Topics include [The Permanent Income Model](https://julia.quantecon.org/dynamic_programming/perm_income.html)
-- At the end of the week students will understand how to implement the classic consumption-savings model with linear-quadratic preferences in the LSS framework of the previous lecture, and to simulate permanent and transitory shocks to income.
+
+  - Topics include [The Permanent Income Model](https://julia.quantecon.org/dynamic_programming/perm_income.html)
+  - At the end of the week students will understand how to implement the classic consumption-savings model with linear-quadratic preferences in the LSS framework of the previous lecture, and to simulate permanent and transitory shocks to income.
+
 ### Week 7: Markov Chains (LO4)
-- Topics include [Finite Markov Chains](https://julia.quantecon.org/tools_and_techniques/finite_markov.html)
-- At the end of the week students will understand how to describe discrete-state stochastic processes as Markov chains and simulate models of unemployment for a worker.
-- **Problem Set 3 Due** - solving and simulating multivariate asset pricing problems in a LSS setup and exploring the permanent income model.
+
+  - Topics include [Finite Markov Chains](https://julia.quantecon.org/tools_and_techniques/finite_markov.html)
+  - At the end of the week students will understand how to describe discrete-state stochastic processes as Markov chains and simulate models of unemployment for a worker.
+  - **Problem Set 3 Due** - solving and simulating multivariate asset pricing problems in a LSS setup and exploring the permanent income model.
+
 ### Week 8: Models of Unemployment (LO4)
-- Topics include the [Lake Model of Employment and Unemployment](https://julia.quantecon.org/multi_agent_models/lake_model.html)
-- At the end of the week students will build on the previous tools of Markov chains to look at a aggregated models of employment and unemployment in the economy.
-- **Midterm in class**
+
+  - Topics include the [Lake Model of Employment and Unemployment](https://julia.quantecon.org/multi_agent_models/lake_model.html)
+  - At the end of the week students will build on the previous tools of Markov chains to look at a aggregated models of employment and unemployment in the economy.
+  - **Midterm in class**
+
 ### Week 9: Rational Expectations and Firm Equilibria (LO5)
-- Topics include [Rational Expectations Equilibrium](https://julia.quantecon.org/multi_agent_models/rational_expectations.html)
-- At the end of the week students will understand the core "big K, little k" insight for implementing rational expectations equilibria and apply it to models of firm dynamics.
+
+  - Topics include [Rational Expectations Equilibrium](https://julia.quantecon.org/multi_agent_models/rational_expectations.html)
+  - At the end of the week students will understand the core "big K, little k" insight for implementing rational expectations equilibria and apply it to models of firm dynamics.
+
 ### Week 10: Asset Pricing (LO5)
-- Topics include [Asset Pricing with Finite State Models](https://julia.quantecon.org/multi_agent_models/markov_asset.html)
-- At the end of the week students will understand pricing assets with payouts following a Markov-chain as derived in the previous lectures.
-- **Problem Set 4 Due** - firm dynamic simulations and more on dynamics of Markov chains.
+
+  - Topics include [Asset Pricing with Finite State Models](https://julia.quantecon.org/multi_agent_models/markov_asset.html)
+  - At the end of the week students will understand pricing assets with payouts following a Markov-chain as derived in the previous lectures.
+  - **Problem Set 4 Due** - firm dynamic simulations and more on dynamics of Markov chains.
+
 ### Week 11: Lucas Trees (LO5)
-- Topics include [Asset Pricing with Finite State Models](https://julia.quantecon.org/multi_agent_models/markov_asset.html) and some of [The Lucas Asset Pricing Model](https://julia.quantecon.org/multi_agent_models/lucas_model.html)
-- At the end of the week students will understand how to price assets with continuous rather than discrete payoffs.
+
+  - Topics include [Asset Pricing with Finite State Models](https://julia.quantecon.org/multi_agent_models/markov_asset.html) and some of [The Lucas Asset Pricing Model](https://julia.quantecon.org/multi_agent_models/lucas_model.html)
+  - At the end of the week students will understand how to price assets with continuous rather than discrete payoffs.
+
 ### Week 12: Recursive Equilibria and the McCall Search Model (LO6)
-- Topics include [The McCall Search Model](https://julia.quantecon.org/dynamic_programming/mccall_model.html)
-- At the end of the week students will be able to define and solve basic models of labor market search.
-- **Problem Set 5 Due** - asset pricing examples and a labor market search.
+
+  - Topics include [The McCall Search Model](https://julia.quantecon.org/dynamic_programming/mccall_model.html)
+  - At the end of the week students will be able to define and solve basic models of labor market search.
+  - **Problem Set 5 Due** - asset pricing examples and a labor market search.
+
 ### Week 13: Cake Eating Problem (LO6)
-- Topics include [Introduction to Optimal Savings](https://python.quantecon.org/cake_eating_problem.html) and [Numerical Methods for Solving the Cake Eating Problem](https://python.quantecon.org/cake_eating_numerical.html)
-- At the end of the week students will be able to implement simple value-function iteration to solve a dynamic programming problem with a continuous set of decisions.
+
+  - Topics include [Introduction to Optimal Savings](https://python.quantecon.org/cake_eating_problem.html) and [Numerical Methods for Solving the Cake Eating Problem](https://python.quantecon.org/cake_eating_numerical.html)
+  - At the end of the week students will be able to implement simple value-function iteration to solve a dynamic programming problem with a continuous set of decisions.
+
 ### Week 14: Cass Koopmans/Neoclassical Growth (LO7)
-- Topics include [Cass Koopmans Planning Problem](https://python.quantecon.org/cass_koopmans_1.html)
-- At the end of the week students will be able to solve for the transition dynamics of the planning problem for the Cass Koopmans/neoclassical growth model.
+
+  - Topics include [Cass Koopmans Planning Problem](https://python.quantecon.org/cass_koopmans_1.html)
+  - At the end of the week students will be able to solve for the transition dynamics of the planning problem for the Cass Koopmans/neoclassical growth model.
+
 ### Week 15: Optimal Growth Model (LO7)
-- Topics include [Stochastic Optimal Growth Model](https://julia.quantecon.org/dynamic_programming/optgrowth.html)
-- At the end of the week students will be able to solve growth models with a single type of good and stochastic productivity.
-- **Problem Set 6 Due** - solving stochastic dynamic programming and simulating  transition dynamics of growth models.
-- **Final Exam** - according to calendar schedule
-- 
+
+  - Topics include [Stochastic Optimal Growth Model](https://julia.quantecon.org/dynamic_programming/optgrowth.html)
+  - At the end of the week students will be able to solve growth models with a single type of good and stochastic productivity.
+  - **Problem Set 6 Due** - solving stochastic dynamic programming and simulating  transition dynamics of growth models.
+  - **Final Exam** - according to calendar schedule
+ 
 ## Policies
 
 **Missed Exam Policy:** You are responsible for ensuring that you take these exams as scheduled; no make-up exams will be given.
+
 - Missing a midterm for ANY acceptable reason will result in its weight being automatically transferred to the final exam.
 - The final exam date will be announced by Student Services about half-way through the term.
 - There is no make-up final. Travel plans and/or cheap tickets are not a reason to miss the final. If you have a medical	or other compelling reason why you cannot take the final exam at its scheduled time you must follow the formal process and get an Academic Concession from your Faculty Advising Office (see below)
 
 **Policy for Academic Concessions:**
 Sometimes, things happen during the course of a semester that can affect your ability to succeed.  There are three main categories:
+
 - Medical – i.e. you got sick and missed class or a chronic illness got worse
 - Compassionate – i.e. a friend or close relative had something bad happen to them, or something bad happened to you.
 - Conflicting Responsibilities – i.e. something happened in your personal life which is affecting your ability to do the work, like childcare falling through
+
 You can read more about specific examples and the whole policy at:
 http://www.calendar.ubc.ca/vancouver/index.cfm?tree=3,48,0,0
 
@@ -172,7 +206,8 @@ In all of these cases, UBC’s policy is to allow you to request an academic con
 https://students.arts.ubc.ca/advising/academic-performance/help-academic-concession/
 
 If you need a concession, you should immediately speak to Advising, who will follow-up with me to handle the academic side of things.  In-term concessions, which handle things like missed assignments or deadlines, are handled usually by extending the deadline or adjusting the final grading of the course (e.g. omitting an assessment).  Alternative forms of assessment may also be used if suitable and recommended by Advising.
-•	Concessions need to be made in a timely fashion, which I will define as “within 2 weeks of the missed assessment” unless this is not reasonable.
+
+Concessions need to be made in a timely fashion, which I will define as “within 2 weeks of the missed assessment” unless this is not reasonable.
 You are also welcome to speak to me regarding your issue; I’m here to support you and help you get through things and be successful.  If you’re not sure if it’s something you should/could get a concession for, I can also give you a quick sense of what Advising will likely suggest if you’re unable to make an appointment immediately. 
 
 
