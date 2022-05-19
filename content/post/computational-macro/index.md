@@ -57,23 +57,23 @@ This course will explore these sorts of theoretical models in conjunction with t
 ## Learning Outcomes
 
 By the end of the course, students will be able to
-1. program your tools from linear algebra, probability, and optimization in the Julia programming language (LO1)
+1. program using tools from linear algebra, probability, and optimization in the Julia programming language (LO1)
 2. simulate and analyze stochastic processes and understand the evolution of the wealth distribution (LO2)
 3. describe economic dynamics as a linear state space model and solve them numerically (LO3)
-4. implement and analyze markov chains, and apply them to models of unemployment and asset pricing (LO4)
+4. implement and analyze Markov chains, and apply them to models of unemployment and asset pricing (LO4)
 5. learn the role of general equilibrium and prices in aggregating information and reflecting the real economy (LO5)
 6. define economic problems recursively, such labor market search and consumption savings models, and solve them numerically (LO6)
 7. define and implement dynamic models of growth (LO7)
 
 ## Textbook and Materials
-The core textbook is the online, open-source textbook [Quantitative Economics with Julia](https://julia.quantecon.org/) by Jesse Perla, Thomas J. Sargent and John Stachurski.  This set of lecture is quantitative economics and programming in economics, building on key open-source libraries. While it has both graduate-level and undergraduate-level material, in cases where material in the course is too advanced, we will choose a subset and adapt lecture materials to be appropriate for the level.
+The core textbook is the online, open-source textbook [Quantitative Economics with Julia](https://julia.quantecon.org/) by Jesse Perla, Thomas J. Sargent and John Stachurski.  While it has both graduate-level and undergraduate-level material, in cases where material in the course is too advanced, we will choose a subset and adapt lecture materials to be appropriate for the level---where advanced students can examine the topics in more formality and detail.
 
 The textbook includes both theory and code, and a set of [Jupyter notebooks](https://github.com/QuantEcon/lecture-julia.notebooks).   
 
 ## Course Format
 The course will meet for two 1.5 hours lectures per week for an in-class lecture. While there will not be a formal "lab", the instructor may go through coding examples in class. A teaching assistant will be available to help with the class size of approximately 50 students.
 
-While the coding is intended to stay at as basic level as possible at first, students are expected to be reasonably proficient in Matlab, Python, Julia, and similar languages.  After the first few weeks the lectures will tend to focus on teaching the theory where code implementations done largely in the assignments.  At that point, additional coding will be done with a flipped lecture to ensure that students can slowly practice the material, leaving more time for macroeconomic theory.
+While the coding is intended to stay at as basic level as possible at first, students are expected to start reasonably proficient in Matlab, Python, Julia, and similar languages.  After the first few weeks the lectures will tend to focus on teaching the theory where code implementations done largely in the assignments.  At that point, much of the coding practice will be done in the problem sets, leaving sufficient time in-class for macroeconomic theory.
 
 All materials will be provided on http://canvas.ubc.ca and the open-source materials are on GitHub.  Students are expected to have a laptop for in-class exploration and exams.
 
@@ -90,49 +90,49 @@ The weighting in the grade is:
 The problem sets will start off short and easy to help those with less programming experience, and then build in complexity.
 
 ## Computational Infrastructure and Programming Language
-While students will have experience with another programming language such as Python or Matlab from their prerequisities, this course will be taught using [Julia](https://julialang.org/).  Beyond being an excellent language for technical computing for macroeconomics, Julia provides a new set of programming principles that will broaden the student's knowledge of computing.  This will help them students by both providing a better differentiated resume, broader skills, and more opportunities to work as a research assistant for researchers requiring significant computational expertise.
+While students will have experience with another programming language such as Python or Matlab from their prerequisities, this course will be taught using [Julia](https://julialang.org/).  Beyond being an excellent language for technical computing and popular among macroeconomists, Julia provides a new set of programming principles that will broaden the student's knowledge of computing.  This will help them students by both providing a better differentiated resume, broader skills, and more opportunities to work as a research assistant for researchers requiring significant computational expertise.
 
-Students can install a Julia installation on their laptop by following [these instructions](https://julia.quantecon.org/getting_started_julia/getting_started.html).  While one can use Julia entirely from Jupyter notebook, we will also install VS Code and introduce basic github/vscode usage as well.
+Students can install a Julia on their laptop by following [these instructions](https://julia.quantecon.org/getting_started_julia/getting_started.html).  While one can use Julia entirely from just Jupyter notebook, we will also install VS Code and introduce basic [GitHub](https://github.com/) and [VS Code](https://code.visualstudio.com/) usage as well to help broaden the students exposure to computational tools.
 
 ## Course Outline (by Week)
-Note: a few of the linked lectures are currently in python, and a port is under way.
+Note: a few of the linked lectures are currently in Python, and a port is under way.
 ### Week 1: Introduction to Julia and programming for economics (LO1)
 
    - Topics include: [Getting Started](https://julia.quantecon.org/getting_started_julia/getting_started.html) and [Julia Essentials](https://julia.quantecon.org/getting_started_julia/julia_essentials.html)
-   - At the end of the week students will have reviewed the basic setup of the Julia programming language and related it similar functionality in to Python or Matlab
+   - At the end of the week students will have reviewed the basic setup of the Julia programming language and can comfortably accomplish simple tasks as they would in to Python or Matlab.
 
 ### Week 2: Linear algebra and basic scientific computing (LO1)
    - Topics include [Arrays and Related Types](https://julia.quantecon.org/getting_started_julia/fundamental_types.html) and related topics in implementing [Linear Algebra](https://julia.quantecon.org/tools_and_techniques/linear_algebra.html).  In addition, students will review [Optimizers and Solvers](https://julia.quantecon.org/more_julia/optimization_solver_packages.html).  Interested students can review bonus material in [Generic Programming](https://julia.quantecon.org/getting_started_julia/introduction_to_types.html) but it wouldn't be required or tested.
-   - At the end of the week students will feel comfortable: working with matrices, vectors, and arrays; solving linear systems and calculating eigenvalues; optimizing unconstrained and constrained functions; and solving systems of equations.
+   - At the end of the week students will feel comfortable working with matrices, vectors, and arrays; solving linear systems and calculating eigenvalues; optimizing unconstrained and constrained functions; and solving systems of equations.
 ### Week 3: Geometric Series and Stochastic Processes (LO2)
 - Topics include [Geometric Series](https://julia.quantecon.org/tools_and_techniques/geom_series.html) [Dynamics in One Dimension](https://python.quantecon.org/scalar_dynam.html)
-- At the end of the week students will understand how to calculate present discounted values, work with keynesian money-multipliers, and simulating random processes.
+- At the end of the week students will understand how to calculate present discounted values, work with Keynesian money-multipliers, and simulating random processes.
 - **Problem Set 1 Due** - basic loops, linear algebra, and optimization problems.
 ### Week 4: Dynamics of Wealth and Distributions (LO2)
 - Topics include [AR1 Processes](https://python.quantecon.org/ar1_processes.html) and [Wealth Distribution Dynamics](https://python.quantecon.org/wealth_dynamics.html)
-- At the end of the week students will better understand ergodic distributions, measures of inequality, and simulating the dynamics of the wealth distribution.
+- At the end of the week students will better understand ergodic distributions, measures of inequality, and how to simulate the dynamics of the wealth distribution.
 ### Week 5: Linear State Space Models Part (LO3)
 - Topics include [Linear State Space Models](https://julia.quantecon.org/tools_and_techniques/linear_models.html)
-- At the end of this week students will understand how to describe processes such as asset pricing and consumption smoothing as linear-state space models, simulate them, and calculate present-discounted values.
+- At the end of this week students will understand how to describe processes such as asset pricing and consumption smoothing as linear-state space models, simulate them, and calculate present-discounted values using those stochastic processes.
 - **Problem Set 2 Due** - calculating present discounted values and simulating univariate asset pricing models, simulating and calculating dynamics of the wealth distribution.
 ### Week 6: Permanent Income Model (LO3)
 - Topics include [The Permanent Income Model](https://julia.quantecon.org/dynamic_programming/perm_income.html)
 - At the end of the week students will understand how to implement the classic consumption-savings model with linear-quadratic preferences in the LSS framework of the previous lecture, and to simulate permanent and transitory shocks to income.
 ### Week 7: Markov Chains (LO4)
 - Topics include [Finite Markov Chains](https://julia.quantecon.org/tools_and_techniques/finite_markov.html)
-- At the end of the week students will understand how to describe discrete-state stochastic processes as markov chains and simulate models of unemployment for a worker.
+- At the end of the week students will understand how to describe discrete-state stochastic processes as Markov chains and simulate models of unemployment for a worker.
 - **Problem Set 3 Due** - solving and simulating multivariate asset pricing problems in a LSS setup and exploring the permanent income model.
 ### Week 8: Models of Unemployment (LO4)
 - Topics include the [Lake Model of Employment and Unemployment](https://julia.quantecon.org/multi_agent_models/lake_model.html)
-- At the end of the week students will build on the previous tools of markov chains to look at a aggregated models of employment and unemployment in the economy.
+- At the end of the week students will build on the previous tools of Markov chains to look at a aggregated models of employment and unemployment in the economy.
 - **Midterm in class**
 ### Week 9: Rational Expectations and Firm Equilibria (LO5)
 - Topics include [Rational Expectations Equilibrium](https://julia.quantecon.org/multi_agent_models/rational_expectations.html)
-- At the end of the week students will understand the core big K, little k insight for implementing price-taking agents and implement a model of firm dynamics.
+- At the end of the week students will understand the core "big K, little k" insight for implementing rational expectations equilibria and apply it to models of firm dynamics.
 ### Week 10: Asset Pricing (LO5)
 - Topics include [Asset Pricing with Finite State Models](https://julia.quantecon.org/multi_agent_models/markov_asset.html)
-- At the end of the week students will understand pricing assets with payouts following the markov-chains of the previous lectures.
-- **Problem Set 4 Due** - firm dynamic simulations and more on dynamics of markov chains.
+- At the end of the week students will understand pricing assets with payouts following a Markov-chain as derived in the previous lectures.
+- **Problem Set 4 Due** - firm dynamic simulations and more on dynamics of Markov chains.
 ### Week 11: Lucas Trees (LO5)
 - Topics include [Asset Pricing with Finite State Models](https://julia.quantecon.org/multi_agent_models/markov_asset.html) and some of [The Lucas Asset Pricing Model](https://julia.quantecon.org/multi_agent_models/lucas_model.html)
 - At the end of the week students will understand how to price assets with continuous rather than discrete payoffs.
