@@ -30,7 +30,7 @@ projects: ["datascience-computational"]
 This is a newly proposed course which will be taught as **ECON 407 in Spring 2023**  as a pilot.  See additional **strongly recommended** prerequisites in addition to ECON407 requirements.
 
 ## Calendar Description:
-**ECON 4XX: Computational and Quantitative Macroeconomics**
+**ECON 4XX: Computational Methods in Macroeconomics**
 
 (3 credits course) Computational tools used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth
 
