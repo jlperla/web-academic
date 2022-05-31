@@ -29,7 +29,7 @@ projects: ["datascience-computational"]
 
 This is a newly proposed course which will be taught as **ECON 407 in Spring 2023**  as a pilot.
 
-See below for additional **strongly recommended** prerequisites.  To summarize: beyond the intermediate micro students are expected to have a ECON 323 or a similar programming course using Python, Matlab, or similar languages (i.e., Stata and R are insufficient).  Finally, students should have  MATH 221 or an equivalent course in matrix algebra---which would already fulfilled by those taking ECON 323.
+See below for additional **strongly recommended** prerequisites.  To summarize: beyond the intermediate micro you are expected to have a ECON 323 or a similar programming course using Python, Matlab, or similar languages (i.e., Stata and R are insufficient).  Finally, you should have  MATH 221 or an equivalent course in matrix algebra---which would already fulfilled by those taking ECON 323.
 
 ## Calendar Description:
 **ECON 408: Computational Methods in Macroeconomics**
@@ -40,9 +40,13 @@ See below for additional **strongly recommended** prerequisites.  To summarize: 
 
 ## Course Overview
 
-This is an introductory course in the computational tools used in macroeconomics.  Students are **not** required to have taken intermediate macroeconomics in order to enrol. 
+This is a course in computational tools used in macroeconomics.  You are expected to have some proficiency in Matlab, Python, Julia, and similar languages as fulfilled in the prerequisites (i.e., ECON 323, CPSC 103, CPSC 107, CPSC 110, MATH 210, COMM 337).  You are **not** required to have taken intermediate macroeconomics in order to enrol.  <!-- REMOVE/SWAP  -->
 
 Models in macroeconomics and financial economics are constructed from a core set of tools which model each agents' decisions while maintaining an internal consistency between the decisions of complicated distributions of other agents in an economy.  Some of the common features of these models include:
+
+<!-- "Models" in economics formally describe the behavior of different "agents" (e.g, households, workers, firms) and then provide an artificial laboratory to investigate how the structure of the economy would change if you modify any of the assumptions.  For example, a model of wealth inequality might include a description of how savings and borrowing decisions of households lead to a skewed distribution of wealth and income, which can then be simulated to see how income inequality in the economy changes with different taxes.  Since many of the features and assumptions used in macroeconomic models interact and must all simultaneously hold, researchers and practitioners usually require computers to solve and interpret these types of economic models. -->
+
+Some of the common features of models in macroeconomics and financial economics include:
 
 1. __dynamic and forward looking decisions__: If I consume less today, I can save more for tomorrow;
 2. __randomness and uncertainty about the future__: If reject a job offer, I am not sure when the next offer will occur;
@@ -50,41 +54,40 @@ Models in macroeconomics and financial economics are constructed from a core set
 4. __social learning from other agents' with information aggregated through prices__: If many others consider a particular equity or bond asset a good buy, then I can infer this by the price of the asset itself; and
 5. __distributions and heterogeneity in the economy influencing decisions and prices__: If the distribution of income is askew and there are many poor agents living hand-to-mouth, government policy such as sending out stimulus cheques has a different effect on inflation and consumer welfare than if every person had similar incomes.
 
-As these features of the model interact and must all simultaneously hold, researchers and practitioners usually require computers to solve and interpret these types of economic models.
-
+ <!-- REMOVE/SWAP  -->
 <!--  This makes it difficult to do counter-factual experiments with "partial-equilibrium" in macroeconomics---i.e., changing one price or element of the model in isolation---because of the interconnection of decisions, prices, and distributions.   However, by writing formal models in mathematics, we can conduct policy experiments and interpret data while still ensuring all of these conditions for self-consistency.  Using precise mathematical language will (1) uncover unanticipated consequences implicit in your assumptions; (2) keep everyone honest; (3) provide a framework to investigate changes in assumptions; and (4) allow disciplined nesting of models to add enough "reality" for quantitative analysis.
 
 The downside is that while this set of mathematical tools provides a rich set of economic theories that can be explored and tested against the data, the inherent difficulty of dynamic models means that we may usually need to solve them approximately and on a computer.
 -->
 
-This course is designed to jointly explore these sorts of theoretical models in conjunction with the computational tools to solve and simulate them.  We will learn using the Julia programming language---a modern language for scientific and technical computing which students can use to compliment their existing background in Python or Matlab from other courses.
+This course is designed to jointly explore these sorts of theoretical models in conjunction with the computational tools to solve and simulate them.  We will learn using the Julia programming language—--a modern language for scientific and technical computing. If you have an existing background in Python or Matlab from other courses you will find that Julia compliments those skills.
 
 ## Learning Outcomes
 
-By the end of the course, students will be able to
+By the end of the course, you will be able to
 
 1. program using tools from linear algebra, probability, and optimization in the Julia programming language (LO1)
-2. simulate and analyze stochastic processes and understand the evolution of the wealth distribution (LO2)
+2. simulate and analyze stochastic processes for the purpose of understanding the evolution of the wealth distribution (LO2)
 3. describe economic dynamics as a linear state space model and solve them numerically (LO3)
 4. implement and analyze Markov chains, and apply them to models of unemployment and asset pricing (LO4)
-5. learn the role of general equilibrium and prices in aggregating information and reflecting the real economy (LO5)
+5. investigate the role of general equilibrium and prices in aggregating information and reflecting the real economy (LO5)
 6. define economic problems recursively, such labor market search and consumption savings models, and solve them numerically (LO6)
 7. define and implement dynamic models of growth (LO7)
 
 ## Textbook and Materials
-The core textbook is the online, open-source textbook [Quantitative Economics with Julia](https://julia.quantecon.org/) by Jesse Perla, Thomas J. Sargent and John Stachurski which contains both graduate- and undergraduate-level material.  In cases where material in the course is too advanced, we will choose a subset and adapt lecture materials to be appropriate for the level---where advanced students can examine the topics in more formality and detail.
+The core textbook is the online, open-source textbook [Quantitative Economics with Julia](https://julia.quantecon.org/) by Jesse Perla, Thomas J. Sargent and John Stachurski which contains both graduate- and undergraduate-level material.  In cases where material in the course is too advanced, we will choose a subset and adapt lecture materials to be appropriate for the level.
 
-The textbook includes both theory and code, and a set of [Jupyter notebooks](https://github.com/QuantEcon/lecture-julia.notebooks).   
+The textbook includes both theory and code, and a set of [Jupyter notebooks](https://github.com/QuantEcon/lecture-julia.notebooks).
+
+All materials will be provided on http://canvas.ubc.ca and the open-source materials are on GitHub. <!-- You are expected to have a laptop for in-class exploration and exams. -->
 
 ## Course Format
-The course will meet for two 1.5 hours lectures per week for an in-class lecture. While there will not be a formal "lab", the instructor may go through coding examples in class. A teaching assistant will be available to help with the class size of approximately 50 students.
+The course will meet for two 1.5 hours lectures per week for an in-class lecture. While there will not be a formal "lab", the instructor may go through coding examples in class.
 
-While the coding is intended to stay at as basic level at first, students are expected to start reasonably proficient in Matlab, Python, Julia, and similar languages.  After the first few weeks the lectures will tend to focus on teaching the theory where code implementations done largely in the assignments.  At that point, much of the coding practice will be done in the problem sets, leaving most class-time for connecting the macroeconomic models to the methods.
-
-All materials will be provided on http://canvas.ubc.ca and the open-source materials are on GitHub.  Students are expected to have a laptop for in-class exploration and exams.
+After the first few weeks the lectures will tend to focus on teaching the theory where code implementations done largely in the assignments.  At that point, much of the coding practice will be done in the problem sets, leaving most class-time for connecting the macroeconomic models to the methods.
 
 ## Assignments and Assessment
-The only way to learn how to apply programming to economic problems is practice. To aid in this, a significant portion of the grade will be the six problem sets.
+The only way to learn how to apply programming to economic problems is practice. To aid this, a significant portion of the assessment will be in the form of problem sets.
 
 The midterm and final will be in class and combine both theory and computations, with the exam submitted via a Jupyter notebook.
 
@@ -94,96 +97,96 @@ The weighting in the grade is:
 - Midterm exam: 30%
 - Final exam: 40%
 
-The problem sets will start off short and easy to help those with less programming experience, and then build in complexity.
+<!-- The problem sets will start off short and easy to help those with less programming experience, and then build in complexity. -->
 
 ## Computational Infrastructure and Programming Language
-While students will have experience with another programming language such as Python or Matlab from their prerequisities, this course will be taught using [Julia](https://julialang.org/).  Beyond being an excellent language for technical computing and popular among macroeconomists, Julia provides a new set of programming principles that will broaden the student's knowledge of computing.  This will help them students by both providing a better differentiated resume, broader skills, and more opportunities to work as a research assistant for researchers requiring significant computational expertise.
+While you will have experience with another programming language such as Python or Matlab from your prerequisites, this course will be taught using [Julia](https://julialang.org/).  Beyond being an excellent language for technical computing and popular among macroeconomists, Julia provides a new set of programming principles that will broaden the your knowledge of computing.  This will help you by both providing a better differentiated resume, broader skills, and more opportunities to work as a research assistant for researchers requiring significant computational expertise.
 
-Students can install a Julia on their laptop by following [these instructions](https://julia.quantecon.org/getting_started_julia/getting_started.html).  While one can use Julia entirely from just Jupyter notebook, we will also introduce basic [GitHub](https://github.com/) and [VS Code](https://code.visualstudio.com/) usage as well to help broaden the students exposure to computational tools.
+You can install Julia on your laptop by following [these instructions](https://julia.quantecon.org/getting_started_julia/getting_started.html).  While one can use Julia entirely from just Jupyter notebook, we will also introduce basic [GitHub](https://github.com/) and [VS Code](https://code.visualstudio.com/) usage as well to help broaden your exposure to computational tools.
 
 ## Course Outline (by Week)
-Note: a few of the linked lectures are currently in Python, and a port is under way.
+<!-- Note: a few of the linked lectures are currently in Python, and a port is under way. -->
 
-### Week 1: Introduction to Julia and programming for economics (LO1)
+### Week 1: Julia and programming for economics (LO1)
 
    - Topics include: [Getting Started](https://julia.quantecon.org/getting_started_julia/getting_started.html) and [Julia Essentials](https://julia.quantecon.org/getting_started_julia/julia_essentials.html)
-   - At the end of the week students will have reviewed the basic setup of the Julia programming language and can comfortably accomplish simple tasks as they would in to Python or Matlab.
+   - At the end of the week you will have reviewed the basic setup of the Julia programming language and can comfortably accomplish simple tasks as they would in to Python or Matlab.
 
 ### Week 2: Linear algebra and basic scientific computing (LO1)
 
-   - Topics include [Arrays and Related Types](https://julia.quantecon.org/getting_started_julia/fundamental_types.html) and related topics in implementing [Linear Algebra](https://julia.quantecon.org/tools_and_techniques/linear_algebra.html).  In addition, students will review [Optimizers and Solvers](https://julia.quantecon.org/more_julia/optimization_solver_packages.html).  Interested students can review bonus material in [Generic Programming](https://julia.quantecon.org/getting_started_julia/introduction_to_types.html) but it wouldn't be required or tested.
-   - At the end of the week students will feel comfortable working with matrices, vectors, and arrays; solving linear systems and calculating eigenvalues; optimizing unconstrained and constrained functions; and solving systems of equations.
+   - Topics include [Arrays and Related Types](https://julia.quantecon.org/getting_started_julia/fundamental_types.html) and related topics in implementing [Linear Algebra](https://julia.quantecon.org/tools_and_techniques/linear_algebra.html).  In addition, you will review [Optimizers and Solvers](https://julia.quantecon.org/more_julia/optimization_solver_packages.html).  <!--Interested students can review bonus material in [Generic Programming](https://julia.quantecon.org/getting_started_julia/introduction_to_types.html) but it wouldn't be required or tested. -->
+   - At the end of the week you will feel comfortable working with matrices, vectors, and arrays; solving linear systems and calculating eigenvalues; optimizing unconstrained and constrained functions; and solving systems of equations.
 
 ### Week 3: Geometric Series and Stochastic Processes (LO2)
 
   - Topics include [Geometric Series](https://julia.quantecon.org/tools_and_techniques/geom_series.html) and [Dynamics in One Dimension](https://python.quantecon.org/scalar_dynam.html)
-  - At the end of the week students will understand how to calculate present discounted values, work with Keynesian money-multipliers, and simulating random processes.
+  - At the end of the week you will understand how to calculate present discounted values, work with Keynesian money-multipliers, and simulating random processes.
   - **Problem Set 1 Due** - basic loops, linear algebra, and optimization problems.
 
 ### Week 4: Dynamics of Wealth and Distributions (LO2)
 
   - Topics include [AR1 Processes](https://python.quantecon.org/ar1_processes.html) and [Wealth Distribution Dynamics](https://python.quantecon.org/wealth_dynamics.html)
-  - At the end of the week students will better understand ergodic distributions, measures of inequality, and how to simulate the dynamics of the wealth distribution.
+  - At the end of the week you will better understand ergodic distributions, measures of inequality, and how to simulate the dynamics of the wealth distribution.
 
 ### Week 5: Linear State Space Models Part (LO3)
 
   - Topics include [Linear State Space Models](https://julia.quantecon.org/tools_and_techniques/linear_models.html)
-  - At the end of this week students will understand how to describe processes such as asset pricing and consumption smoothing as linear-state space models, simulate them, and calculate present-discounted values using those stochastic processes.
+  - At the end of this week you will understand how to describe processes such as asset pricing and consumption smoothing as linear-state space models, simulate them, and calculate present-discounted values using those stochastic processes.
   - **Problem Set 2 Due** - calculating present discounted values and simulating univariate asset pricing models, simulating and calculating dynamics of the wealth distribution.
 
 ### Week 6: Permanent Income Model (LO3)
 
   - Topics include [The Permanent Income Model](https://julia.quantecon.org/dynamic_programming/perm_income.html)
-  - At the end of the week students will understand how to implement the classic consumption-savings model with linear-quadratic preferences in the LSS framework of the previous lecture, and to simulate permanent and transitory shocks to income.
+  - At the end of the week you will understand how to implement the classic consumption-savings model with linear-quadratic preferences in the LSS framework of the previous lecture, and to simulate permanent and transitory shocks to income.
 
 ### Week 7: Markov Chains (LO4)
 
   - Topics include [Finite Markov Chains](https://julia.quantecon.org/tools_and_techniques/finite_markov.html)
-  - At the end of the week students will understand how to describe discrete-state stochastic processes as Markov chains and simulate models of unemployment for a worker.
+  - At the end of the week you will understand how to describe discrete-state stochastic processes as Markov chains and simulate models of unemployment for a worker.
   - **Problem Set 3 Due** - solving and simulating multivariate asset pricing problems in a LSS setup and exploring the permanent income model.
 
 ### Week 8: Models of Unemployment (LO4)
 
   - Topics include the [Lake Model of Employment and Unemployment](https://julia.quantecon.org/multi_agent_models/lake_model.html)
-  - At the end of the week students will build on the previous tools of Markov chains to look at a aggregated models of employment and unemployment in the economy.
+  - At the end of the week you will build on the previous tools of Markov chains to look at a aggregated models of employment and unemployment in the economy.
   - **Midterm in class**
 
 ### Week 9: Rational Expectations and Firm Equilibria (LO5)
 
   - Topics include [Rational Expectations Equilibrium](https://julia.quantecon.org/multi_agent_models/rational_expectations.html)
-  - At the end of the week students will understand the core "big K, little k" insight for implementing rational expectations equilibria and apply it to models of firm dynamics.
+  - At the end of the week you will understand the core "big K, little k" insight for implementing rational expectations equilibria and apply it to models of firm dynamics.
 
 ### Week 10: Asset Pricing (LO5)
 
   - Topics include [Asset Pricing with Finite State Models](https://julia.quantecon.org/multi_agent_models/markov_asset.html)
-  - At the end of the week students will understand pricing assets with payouts following a Markov-chain as derived in the previous lectures.
+  - At the end of the week you will understand pricing assets with payouts following a Markov-chain as derived in the previous lectures.
   - **Problem Set 4 Due** - firm dynamic simulations and more on dynamics of Markov chains.
 
 ### Week 11: Lucas Trees (LO5)
 
   - Topics include [Asset Pricing with Finite State Models](https://julia.quantecon.org/multi_agent_models/markov_asset.html) and some of [The Lucas Asset Pricing Model](https://julia.quantecon.org/multi_agent_models/lucas_model.html)
-  - At the end of the week students will understand how to price assets with continuous rather than discrete payoffs.
+  - At the end of the week you will understand how to price assets with continuous rather than discrete payoffs.
 
 ### Week 12: Recursive Equilibria and the McCall Search Model (LO6)
 
   - Topics include [The McCall Search Model](https://julia.quantecon.org/dynamic_programming/mccall_model.html)
-  - At the end of the week students will be able to define and solve basic models of labor market search.
+  - At the end of the week you will be able to define and solve basic models of labor market search.
   - **Problem Set 5 Due** - asset pricing examples and a labor market search.
 
 ### Week 13: Cake Eating Problem (LO6)
 
-  - Topics include [Introduction to Optimal Savings](https://python.quantecon.org/cake_eating_problem.html) and [Numerical Methods for Solving the Cake Eating Problem](https://python.quantecon.org/cake_eating_numerical.html)
-  - At the end of the week students will be able to implement simple value-function iteration to solve a dynamic programming problem with a continuous set of decisions.
+  - Topics include [Optimal Savings](https://python.quantecon.org/cake_eating_problem.html) and [Numerical Methods for Solving the Cake Eating Problem](https://python.quantecon.org/cake_eating_numerical.html)
+  - At the end of the week you will be able to implement simple value-function iteration to solve a dynamic programming problem with a continuous set of decisions.
 
 ### Week 14: Cass Koopmans/Neoclassical Growth (LO7)
 
   - Topics include [Cass Koopmans Planning Problem](https://python.quantecon.org/cass_koopmans_1.html)
-  - At the end of the week students will be able to solve for the transition dynamics of the planning problem for the Cass Koopmans/neoclassical growth model.
+  - At the end of the week you will be able to solve for the transition dynamics of the planning problem for the Cass Koopmans/neoclassical growth model.
 
 ### Week 15: Optimal Growth Model (LO7)
 
   - Topics include [Stochastic Optimal Growth Model](https://julia.quantecon.org/dynamic_programming/optgrowth.html)
-  - At the end of the week students will be able to solve growth models with a single type of good and stochastic productivity.
+  - At the end of the week you will be able to solve growth models with a single type of good and stochastic productivity.
   - **Problem Set 6 Due** - solving stochastic dynamic programming and simulating  transition dynamics of growth models.
   - **Final Exam** - according to calendar schedule.
  
@@ -193,7 +196,7 @@ Note: a few of the linked lectures are currently in Python, and a port is under 
 
 - Missing a midterm for ANY acceptable reason will result in its weight being automatically transferred to the final exam.
 - The final exam date will be announced by Student Services about half-way through the term.
-- There is no make-up final. Travel plans and/or cheap tickets are not a reason to miss the final. If you have a medical	or other compelling reason why you cannot take the final exam at its scheduled time you must follow the formal process and get an Academic Concession from your Faculty Advising Office (see below)
+- There is no make-up final. Travel plans and/or cheap tickets are not a reason to miss the final. If you have a medical	or other compelling reason why you cannot take the final exam at its scheduled time you must follow the formal process and get a Standing Deferred Academic Concession from your Faculty Advising Office (see below)
 
 **Policy for Academic Concessions:**
 Sometimes, things happen during the course of a semester that can affect your ability to succeed.  There are three main categories:
@@ -282,6 +285,3 @@ UBC values academic honesty and students are expected to acknowledge the ideas
 generated by others and to uphold the highest academic standards in all their actions.
 Details of the policies and how to access support are available here
 https://senate.ubc.ca/policies-resources-support-student-success.
-
-**Statement regarding academic freedom**
-During this pandemic, the shift to online learning has greatly altered teaching and studying at UBC, including changes to health and safety considerations. Keep in mind that some UBC courses might cover topics that are censored or considered illegal by non-Canadian governments. This may include, but is not limited to, human rights, representative government, defamation, obscenity, gender or sexuality, and historical or current geopolitical controversies. If you are a student living abroad, you will be subject to the laws of your local jurisdiction, and your local authorities might limit your access to course material or take punitive action against you. UBC is strongly committed to academic freedom, but has no control over foreign authorities (please visit http://www.calendar.ubc.ca/vancouver/index.cfm?tree=3,33,86,0 for an articulation of the values of the University conveyed in the Senate Statement on Academic Freedom). Thus, we recognize that students will have legitimate reason to exercise caution in studying certain subjects. If you have concerns regarding your personal situation, consider postponing taking a course with manifest risks, until you are back on campus or reach out to your academic advisor to find substitute courses. For further information and support, please visit: http://academic.ubc.ca/support-resources/freedom-expression  
