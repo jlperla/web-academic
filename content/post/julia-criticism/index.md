@@ -31,7 +31,7 @@ There has been some posts from a developer on [why he no longer recommends Julia
 My comments here should be narrowly applied to people writing code for economics research and not necessarily extrapolated to teaching or industry use, which have different tradeoffs.  Keep in mind the author says
 > For many years I used the Julia programming language for transforming, cleaning, analyzing, and visualizing data, doing statistics, and performing simulations.
 
-That statement is very important, and I would say that Julia does not compare favorably to alternatives there.  Something like R might be a better fit---or maybe a combination of R with Julia generating the simulations in files.
+That statement is very important, and I would say that Julia does not compare favorably to alternatives there.  Something like R or Python might be a better fit---or maybe a combination of R/Python with Julia generating the simulations in files.
 
 My take on how his comments apply to economic researchers solving models (i.e, not just teaching or cleaning data/visualizing/etc) are:
 1. I agree with the sentiment of a lot of these criticisms although they don't affect economists in the same way as the authors use cases.
