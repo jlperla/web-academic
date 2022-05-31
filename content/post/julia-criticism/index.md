@@ -34,7 +34,7 @@ My comments here should be narrowly applied to people writing code for economics
 That statement is very important, and I would say that Julia does not compare favorably to alternatives there.  Something like R might be a better fit---or maybe a combination of R with Julia generating the simulations in files.
 
 My take on how his comments apply to economic researchers solving models (i.e, not just teaching or cleaning data/visualizing/etc) are:
-1. I agree with the sentiment of a lot of these criticisms although they don't necessarily affect economists much.
+1. I agree with the sentiment of a lot of these criticisms although they all affect economists in the same way.
 2. Economists should not misinterpret these and think that typical code they write is more likely to have problems with Julia than other languages.  It won't unless you are doing something especially advanced.  You may have bugs in your JMP, but they are very likely to be your own bugs!  In fact, julia has excellent [unit testing](https://julia.quantecon.org/software_engineering/testing.html) so with some discipline it might even be better than matlab/etc.
 3. There are a lot of bugs in a lot of packages in Julia.  This is likely true of a random draw of a Python package as well, but the difference is that the core Python ecosystem packages are going to have far better testing.  Be cautious.
 4. If you are using a particular package called [OffsetArrays.jl](https://github.com/JuliaArrays/OffsetArrays.jl) then you should be careful calling out to arbitrary packages.  But you probably haven't, and likely never should.
