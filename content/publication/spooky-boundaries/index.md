@@ -26,8 +26,7 @@ publication_short: ""
 
 abstract: "In the long run, we are all dead. Nonetheless, even when investigating short-run dynamics, models require boundary conditions on long-run, forward-looking behavior (e.g., transversality and no-bubble conditions). In this paper, we show how deep learning approximations can automatically fulfill these conditions despite not directly calculating the steady state, balanced growth path, or ergodic distribution. The main implication is that we can solve for transition dynamics with forward-looking agents, confident that long-run boundary conditions will implicitly discipline the short-run decisions, even converging towards the correct equilibria in cases with steady-state multiplicity. While this paper analyzes benchmarks such as the neoclassical growth model, the results suggest deep learning may let us calculate accurate transition dynamics with high-dimensional state spaces, and without directly solving for long-run behavior."
 
-# Summary. An optional shortened abstract.
-# summary: "We provide a new method for solving high-dimensional dynamic programming problems, and recursive competitive equilibria with a large (but finite) number of heterogenous agents. "
+summary: "In the long run, we are all dead. Nonetheless, even when investigating short-run dynamics, models require boundary conditions on long-run, forward-looking behavior. In this paper, we show how deep learning approximations can automatically fulfill these conditions."
 
 tags: []
 categories: []
@@ -51,8 +50,8 @@ url_video:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Neoclassical growth on balanced growth path"
+  focal_point: "Left"
   preview_only: false
 
 projects: ["ML-high-dim"]

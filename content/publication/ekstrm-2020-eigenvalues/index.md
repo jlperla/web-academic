@@ -4,7 +4,7 @@
 title: Eigenvalues and Eigenvectors of Tau Matrices with Applications to Markov Processes
   and Economics
 subtitle: ''
-summary: ''
+summary: 'We study the properties of eigenvalues and eigenvectors of the generator $T_{n,\epsilon,\phi}$ of the $\tau_{\epsilon,\phi}$ algebra.'
 authors:
 - Sven-Erik Ekström
 - Carlo Garoni
