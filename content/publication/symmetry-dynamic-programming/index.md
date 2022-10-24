@@ -3,8 +3,8 @@
 
 title: "Exploiting Symmetry in High-Dimensional Dynamic Programming"
 authors:
-- Jesus Fernandez-Villaverde
 - Mahdi Ebrahimi Kahou
+- Jesus Fernandez-Villaverde
 - Jesse Perla
 - Arnav Sood 
 date: 2021-12-06T10:21:19-07:00
