@@ -3,7 +3,7 @@
 
 title: "ECON 408: Computational Methods in Macroeconomics"
 subtitle: ""
-summary: ""
+summary: "Computational tools used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth"
 tags: []
 categories: []
 date: 2022-04-00T07:13:10-07:00
@@ -27,5 +27,13 @@ image:
 projects: ["datascience-computational"]
 ---
 
+New course for 2023/2024:
 
-See updated syllabus [here](https://github.com/jlperla/ECON407_2023)
+**ECON 408: Computational Methods in Macroeconomics**
+
+**(3 credits course)** Computational tools used in macroeconomics and financial economics including applications to unemployment, inequality, asset pricing, and economic growth
+
+**Prerequisites:** One of ECON 301, ECON 304, ECON 308 and one of ECON 323, CPSC 103, CPSC 110, MATH 210, COMM 337 and one of MATH 221, MATH 223.
+
+
+For the 2023 trial, see [sample syllabus ](https://github.com/jlperla/ECON407_2023)
