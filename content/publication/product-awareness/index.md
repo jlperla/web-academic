@@ -35,7 +35,7 @@ projects: ["information-diffusion"]
 publishDate: '2023-03-30T13:19:59.050789Z'
 publication_types:
 - 9
-publication: '**R&R (2nd Round) at Econometrica**'
+publication: '**Working Paper**'
 abstract: "Rapid technological advances in advertising have enabled firms to better target those consumers
 most likely to buy their products. While more efficient than traditional methods, targeted
 advertising may significantly limit product market competition. We propose a model of demand
