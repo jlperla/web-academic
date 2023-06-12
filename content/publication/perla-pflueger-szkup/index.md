@@ -31,7 +31,7 @@ publishDate: '2020-12-19T13:19:59.050789Z'
 publication_types:
 - 9
 publication: '**NBER Working Paper**'
-abstract: We study how frictions originating from the presence of limited liability distort
+abstract: 'We study how frictions originating from the presence of limited liability distort
 firms’ investment and financing choices. By financing new investments with
 debt, firms can use limited liability to credibly commit to defaulting earlier—
 allowing both firms’ owners and new creditors to benefit from diluting existing
@@ -40,7 +40,7 @@ the cost of external funds, and discourage investment. We show that the interact
 of these two forces leads to heterogeneous investment distortions where
 highly-indebted firms overinvest and those with low levels of debt underinvest.
 Allowing direct payments to firms’ owners financed with debt can mitigate overinvestment
-but, in the presence of repeated.
+but, in the presence of repeated.'
 links:
   - name: Slides
     url: 'perla_pflueger_szkup_presentation.pdf'    
