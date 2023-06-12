@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: 'Doubling Down on Debt: Limited Liability as a Financial Friction'
+title: 'Commitment and Investment Distortions Under Limited Liability'
 subtitle: ''
 summary: 'We investigate how a combination of limited liability and preexisting debt distort firms’ investment and equity payout decisions.'
 authors:
@@ -9,8 +9,8 @@ authors:
 - Carolin Pflueger
 - Michal Szkup
 categories: []
-date: '2021-12-19'
-lastmod: 2021-12-19T06:20:03-07:00
+date: '2023-06-11'
+lastmod: 2023-06-11T06:20:03-07:00
 featured: true
 draft: false
 
@@ -31,10 +31,17 @@ publishDate: '2020-12-19T13:19:59.050789Z'
 publication_types:
 - 9
 publication: '**NBER Working Paper**'
-abstract: We show that limited liability and preexisting debt lead to heterogeneous investment distortions, where high leverage firms tend to overinvest in the manner of zombie firms but low leverage firms tend to underinvest. In a model with a single investment opportunity, limited liability provides equity holders with an incentive to ``double-sell'' cash flows in default and encourages overinvestment, provided that the firm has preexisting debt and can finance new investment with debt. With repeated investment opportunities, high leverage firms continue to overinvest, but low leverage firms tend to underinvest because debt investors anticipate equity holders' inability to commit to not double-sell cash flows. Restricting debt financed equity payouts has ambiguous efficiency implications, mitigating low leverage firms’ underinvestment but exacerbating overinvestment at highly levered firms. Consistent with model predictions, we find that highly levered firms invest more than low leverage firms in Compustat data 2004-2018, despite lower profitability and investment opportunities.
+abstract: We study how frictions originating from the presence of limited liability distort
+firms’ investment and financing choices. By financing new investments with
+debt, firms can use limited liability to credibly commit to defaulting earlier—
+allowing both firms’ owners and new creditors to benefit from diluting existing
+creditors. In a dynamic setup, this leads to a time-inconsistency, which increases
+the cost of external funds, and discourage investment. We show that the interaction
+of these two forces leads to heterogeneous investment distortions where
+highly-indebted firms overinvest and those with low levels of debt underinvest.
+Allowing direct payments to firms’ owners financed with debt can mitigate overinvestment
+but, in the presence of repeated.
 links:
   - name: Slides
     url: 'perla_pflueger_szkup_presentation.pdf'    
-  - name: Online Appendix
-    url: 'perla_pflueger_szkup_appendix.pdf'
 ---
