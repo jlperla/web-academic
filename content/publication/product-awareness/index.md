@@ -1,21 +1,17 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: 'A Model of Product Awareness and Industry Life Cycles'
+title: 'A Theory of Dynamic Product Awareness and Targeted Advertising'
 subtitle: ''
-summary: "Rapid technological advances in advertising have enabled firms to better target those consumers
-most likely to buy their products. While more efficient than traditional methods, targeted
-advertising may significantly limit product market competition. We propose a model of demand
-as a network, where heterogenous consumers dynamically become “aware” of differentiated
-products, expanding their choice sets and improving on their possible matches thanks to advertising."
+summary: "Rapid technological advances in advertising have enabled firms to better target those consumers most likely to buy their products. We develop a novel framework of demand as a network, where heterogenous consumers dynamically become ``aware'' of differentiated products, expanding their choice sets and improving on their possible matches thanks to advertising."
 authors:
 - Laurent Cavenaile
 - Murat Alp Celik
 - Jesse Perla
 - Pau Roldan-Blanco
 categories: []
-date: '2023-03-30'
-lastmod: 2023-03-30T06:20:03-07:00
+date: '2023-08-12'
+lastmod: 2023-08-12T06:20:03-07:00
 featured: true
 draft: false
 
@@ -36,16 +32,5 @@ publishDate: '2023-03-30T13:19:59.050789Z'
 publication_types:
 - 9
 publication: '**Working Paper**'
-abstract: "Rapid technological advances in advertising have enabled firms to better target those consumers
-most likely to buy their products. While more efficient than traditional methods, targeted
-advertising may significantly limit product market competition. We propose a model of demand
-as a network, where heterogenous consumers dynamically become “aware” of differentiated
-products, expanding their choice sets and improving on their possible matches thanks to advertising.
-As networks become denser, customer misallocation decreases due to better sorting.
-However, though more intensive targeting can efficiently sort with fewer network connections, it
-also increases market power by segmenting consumers. We calibrate the model to the United
-States over a period of time which saw a rapid rise in digital advertising. We find that this rise
-led to substantially better consumer-firm matches. However, if the targeting technology had not
-improved during this period, markups would have been lower and welfare higher despite worse
-sorting."
+abstract: "Rapid technological advances in advertising have enabled firms to better target those consumers most likely to buy their products. While more efficient than traditional methods, targeted advertising may significantly limit product market competition. We develop a novel framework of demand as a network, where heterogenous consumers dynamically become ``aware'' of differentiated products, expanding their choice sets and improving on their possible matches thanks to advertising. As networks become denser, customer misallocation decreases due to better sorting. However, though more intensive targeting can efficiently sort with fewer network connections, it also increases market power by segmenting consumers. Despite the rich micro structure, we show that the model aggregates to a neoclassical growth economy with endogenous TFP. As an application, we consider the case of the United States over a period of time which saw a rapid rise in digital advertising. We find that this rise led to substantially better consumer-firm matches. However, if the targeting technology had not improved during this period, markups would have been lower and welfare higher despite worse sorting."
 ---
