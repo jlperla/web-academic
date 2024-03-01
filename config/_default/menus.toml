@@ -23,10 +23,6 @@
   url = "post"
   weight = 50
   
-[[main]]
-   name = "Family"
-   url = "family"
-   weight = 80
 
 [[main]]
    name = "CV"
