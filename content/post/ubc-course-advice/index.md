@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "UBC Math and Economics Course Advice"
+title: "UBC Math, Computer Science, and Economics Course Advice"
 subtitle: ""
 summary: "Not every top student should choose to get a PhD in economics or finance. But if you are considering it, then some advanced preparation can make your life easier"
 tags: []
@@ -29,11 +29,9 @@ projects: ["datascience-computational"]
 Not every top student should choose to get a masters or PhD in economics or finance. But if you are considering it, then some advanced preparation can make your life easier.
 
 A few broad warnings:
-- The proliferation of pre-docs has cast a lot of uncertainty into PhD admissions.  At this point, I am really not sure the best advice for students to get into a PhD so take all of these suggestions with a grain of salt
-- I have put in fewer math course suggestions in this post relative to older versions.  It is not that I do not think those courses are important, but rather than it is also becoming necessary to develop your computational skills - and it is difficult to take a large number of classes in both mathematics and computer science/datascience for most students.  And it is important to leave enough time to take field-classes in economics rather than spend too much time on methods.
-- Keep in mind that this advice is **not sufficient** to get into a top program. You could have perfect grades in all of your classes, but there are lots of students with high grades. The first-order concern for getting into research oriented graduate programs (PhD and some of the MAs) is to get good letters of reference from research faculty. It does not matter how many math classes you have taken if you don't have an economist saying you would make a good researcher. Also keep in mind that good reference letters are more than just "Jane Doe got a 90% in my class". Research experience (such as being a research assistant for a professor, or getting a pre-doctoral fellowship) is also much more useful than taking particular math classes.
-- I have added on some additional advice below for computer science courses, which I think are going to become increasingly important and a good differentiator for both getting predocs and for getting into graduate school.
-
+- The proliferation of pre-docs has cast a lot of uncertainty into PhD admissions.
+- I have put in fewer math course suggestions in this post relative to older versions.  It is not that I do not think those courses are important, but rather than it is also becoming necessary to develop your computational skills and you have limited electives.
+- I have added much more on computer science courses, which I think are going to become increasingly important for all types of economics.
 
 ### General Advice
 The most important advice I have is to take some mathematics and computing courses as soon as possible in your degree.  In particular, almost all economics majors who may be interested in grad school should take:
@@ -51,8 +49,20 @@ There are more notes below, but if I were starting out right now I would set goa
 - **MATH 220** (Mathematical Proof) after **MATH 200** and **MATH 221**
 - **CPSC 210** (Software Construction) after **CPSC 110** or **CPSC 103/107**
 - **CPSC 221** (Basic Algorithms and Data Structures) after **MATH 220** and **CPSC 210**
-- **CPSC 340** (Machine Learning and Data Mining)
+- **CPSC 340** (Machine Learning and Data Mining) after **CPSC 221**
 
+After that, I would take electives that interest me in both math and CS - and not worry about signalling to grad school because you would be sufficiently tooled up.
+
+
+### Computer Science Courses
+I know less about the path of courses with Computer Science, but want to emphasize again that I think it is becoming increasingly important.  Just like building mathematical sophistication, in some ways it doesn't matter exactly what computer science courses you take, but I think it is better for economists to focus on more mathematical or statistical ones.
+
+- See the above suggestion for getting to **CPSC 340** on your transcript.  To students interested in grad school, it is more important to do **CPSC 340** rather than **CPSC 330** which is more about using the tools rather than understanding them.  
+- As you will have to take **CPSC 221** to get on that track, which is an especially important class for reaching other prerequisites.  Among other things, it will provide you with more of the proof and discrete-math skills required for serious computer science, which will help you with rigor in your economics classes.
+- At that point, I think you can ask computer science professors/etc. for more advice depending on your areas of interest.  For example, **CPSC 322** (Introduction to Artificial Intelligence) is a great class you could take.
+
+Keep in mind that computer science is **NOT** the same thing as coding.  It is a mathematical science (e.g. rigorous proofs, statistics, and theory).  So in many ways, after you get past the basic coding and software engineering course (i.e. **CPSC 210**, which is probably painful but a necessary step to get practice with coding) the classes serve the same purpose as mathematics ones do.
+ 
 ### Math Classes
 To a certain degree, it doesn't matter as much as you might think which math class you take, because the purpose is to build mathematical sophistication and exposure.  A few comments on specific classes at UBC to consider, in order:
 
@@ -61,16 +71,16 @@ To a certain degree, it doesn't matter as much as you might think which math cla
 2.  **MATH 200:** Calculus 3
     *   Multivariate calculus includes some useful tools (e.g. lagrangians, linear approximations, and more on limits) but most of the course is spent on material more useful for considering physical systems (e.g. double and triple integrals, cross-products, geometry of cylinders).
     *   So, relative to something like **MATH 221** or **MATH 302**, for economics students there is a lot of wasted time that could have been spent on learning better abstract concepts to me at least.
-    *   That said, it is a pre-requisite for more advanced math classes so if you want to take further classes you do not have a choice.
-3.  **MATH 302:**  Introduction to Probability  
-    *   Since so much of economics, statistics, and machine learning is statistical, this class is directly useful and good for developing mathematical sophistication.
-    *   It requires **MATH 200** as a pre-requisite to make sure you have had sufficient practice.
-    *   This class would be an easy class for most math majors, and a challenge but within-reach class for most economic majors with the prerequisites.
+    *   That said, it is a pre-requisite for more advanced math and CS classes so if you want to take further classes you do not have a choice.
 3.  **MATH 220:** Mathematical Proofs
     *   This is a great class to help you develop more formal mathematical reasoning, but it won't give you tools like **MATH 302** or **MATH 221** would
     *   I would only recommend this class if you are interested in doing more serious classes or want to signal to graduate schools that you are mathematically sophisticated.
     *   The math department uses this to filter out students for more advanced classes, so you need to work hard to get grades.
-4.  **MATH 319**: Introduction to Real Analysis
+4.  **MATH 302:**  Introduction to Probability  
+    *   Since so much of economics, statistics, and machine learning is statistical, this class is directly useful and good for developing mathematical sophistication.
+    *   It requires **MATH 200** as a pre-requisite to make sure you have had sufficient practice.
+    *   This class would be an easy class for most math majors, and a challenge but within-reach class for most economic majors with the prerequisites.
+5.  **MATH 319**: Introduction to Real Analysis
     *   Real analysis is essential math for a large number of applications, and is a good signal to graduate schools of your mathematical sophistication.
     *   There is also a class **MATH 320** but I think you probably want to avoid it, as the course is intended more for honours students. If you have background to do well in that class, you won't need the advice of this webpage in the first place
     *   Even though **MATH 319** is a more gentle introduction to this material, they still tend to grade these types of courses fairly harshly and you would need to work very hard to get a good grade.
@@ -85,7 +95,8 @@ If you think you would likely stop at a masters degree, then there is less benef
 
 
 ### Math Classes on your Transcript for PhD Programs
-
+Keep in mind that this advice is **not sufficient** to get into a top program. You could have perfect grades in all of your classes, but there are lots of students with high grades. The first-order concern for getting into research oriented graduate programs (PhD and some of the MAs) is to get good letters of reference from research faculty. It does not matter how many math classes you have taken if you don't have an economist saying you would make a good researcher. Also keep in mind that good reference letters are more than just "Jane Doe got a 90% in my class". Research experience (such as being a research assistant for a professor, or getting a pre-doctoral fellowship) is also much more useful than taking particular math classes.
+ 
 As discussed above, I have no idea anymore with predocs.  But traditionally one indicator for getting into top economics/finance PhD programs directly from an undergrad is whether you have done sufficiently well in a difficult math course such as real variables/analysis.  This filter is because of the giant leap in mathematical sophistication required for the first year of a PhD program. Advanced undergraduate math classes are proof that you can handle the difficulty, and signal your intelligence.  The converse is true as well: **doing poorly** on tough math courses a bad signal and may hurt your chance of getting into top programs. You are better off not taking hard math classes unless you can do well in them.
   
 Also, in many ways, our theoretical 400 level economics courses (described below) are a better direct technical preparation, and are much more useful for getting letter writers. Taking math classes should be done in addition to those courses, not instead of them. With that said, for many fields you will find the tools of advanced mathematics classes, and the rigor of doing proofs, directly useful.
@@ -93,13 +104,6 @@ Also, in many ways, our theoretical 400 level economics courses (described below
 
 At this point, my suggestion is to try to take **MATH 220** if you do well enough in the prerequisites and think you might want to get a PhD.  Beyond a signal, a course like **MATH 220** can be an indicator _to yourself_ of whether you are well suited to graduate economics or finance.  As for **MATH 319**, I would won't make a recommendation for everyone because I think you need to leave enough room to also take classes which build your computational skills.  There are a finite number of electives you are able to take.
 
-
-### Computer Science Courses
-I know less about the path of courses with Computer Science, but want to emphasize again that I think it is becoming increasingly important - to the extent that you might want to substitute math courses you may have taken with computer science ones.  Just like building mathematical sophistication, in some ways it doesn't matter exactly what computer science courses you take, but I think it is better for economists to focus on more mathematical or statistical ones.
-
-- See the above suggestion for getting to **CPSC 340** on your transcript.  To students interested in grad school, it is more important to do **CPSC 340** rather than **CPSC 330** which is more about using the tools rather than understanding them.  
-- As you will have to take **CPSC 221** to get on that track, which is an especially important class for reaching other prerequisites.  Among other things, it will provide you with more of the proof and discrete-math skills required for serious computer science, which will help you with rigor in your economics classes.
-- At that point, I think you can ask computer science professors/etc. for more advice depending on your areas of interest.  For example, **CPSC 322** (Introduction to Artificial Intelligence) is a great class you could take.
 
 
 ### Economics Courses for Graduate School
