@@ -29,45 +29,39 @@ projects: ["datascience-computational"]
 Not every top student should choose to get a masters or PhD in economics or finance - but if you want the option then some advanced preparation can make your life easier.
 
 ### Math and CS are Substitutes (and Complements)
-Relative to older advice, I am increasing the importance of taking CS courses.  Don't be scared.  Anyone who might be interested in graduate school for economics or finance will do fine, and UBC CS grades fairly and so you won't be penalized for challenging yourself.
+Relative to older advice, I am increasing the importance of taking Computer Science (CS) courses. 
 
-While the first misconception is that coding is difficult, another is to forget the "science" part of CS.  **CS $\neq$ coding**.  While there are elements of CS that are more engineering-centric, those aren't the courses you would take.  For our purposes, computer science is a rigorous mathematical science tightly connected to discrete-math, statistics, game theory, etc.
+- Don't be intimidated. Anyone who might be interested in graduate school for economics or finance will manage well, and UBC CS grades fairly, ensuring you won't be penalized for challenging yourself.
+- **CS $\neq$ coding**. While there are elements of CS that lean more towards engineering, those are not the courses you would be taking. For our purposes, computer science is a rigorous mathematical science closely intertwined with discrete mathematics, statistics, game theory, etc.
+- However, a word of warning: the 100 and 200 level classes demand significantly more effort than economics courses. It is a challenging but valuable investment of time, as there is no substitute for building familiarity with the material. They grade fairly and generously, so there is no need to worry about your GPA.
+- Do not get caught up in programming languages.  You need to learn at least two to three (outside of stata and R, which are outstanding at what they do but won't help you develop the needed skills).
 
-However, a word of warning: the 100 and 200 level classes are a lot more work than economics courses.  It is painful but time well spent, as there is no other way to build familiarity - but they grade fairly and generously, so there is no need to worry about your GPA.
 
 ### Goals for All
-The most important advice I have is to take some mathematics and computing courses as soon as possible in your degree to open up other courses.  In particular, almost all economics majors who think they may be interested in grad school should take:
+Take some mathematics and computing courses as soon as possible in your degree.  In particular, almost all economics majors who think they may be interested in grad school should take:
 - **MATH 221 (Matrix Algebra)** .  This is a relatively easy math course for UBC, and linear/matrix algebra is essential for a lot of economics, finance, statistics, datascience, and machine learning.
-  - This class will aid in you in a lot of your other economics courses and open up new classes (such as **ECON 408**).
-- **CPSC 103 (Introduction to Systematic Program Design)** or **ECON323 (Quantitative Economic Modeling and Data Science)**.  It is essential to learn to "program" (i.e., the programming language doesn't really matter, just that it is a proper one and not simply R or Stata).
-  - **CPSC 103** is a gentler introduction and leads to **CPSC 107** (which fulfills the same prerequisite as **CPSC 110**)
-  - For students with more programming background and a capacity for more coursework you can try to take **CPSC 110** if they can, as it is a fast track to more electives.  It is a significant amount of coursework.
-  - Otherwise, **ECON 323** is a easy entry to learning to code that uses more direct economics examples, which is fine for most economics majors but limits your ability to take CS electives.  Typically students would take **ECON 323** later in their degree.
-
+- **CPSC 103 (Introduction to Systematic Program Design)** or **ECON323 (Quantitative Economic Modeling and Data Science)**.  It is essential to learn to "code" in a general-purpose language (i.e., the programming language doesn't really matter, just that it is a proper one and not simply R or Stata).  **ECON 323** is a easy entry to learning to code (not necessarily easier than **CPSC 103** though) that uses more direct economics examples, which is fine for most economics majors but limits your ability to take CS electives.
 
 ### Suggested Courses
-The most important advice I have is to take some mathematics and computing courses as soon as possible in your degree to open up other courses.  In particular, almost all economics majors who think they may be interested in grad school should take **MATH 221** and either **CPSC 103** or **ECON 323**.
-
-But __if I were starting an undergrad__, some useful goals are to get **CPSC 340 (Machine Learning and Data Mining)** which requires a lot of courses intersection with math and CS and **ECON 425 (Advanced Econometrics)**.
+But __if I were starting an undergrad__, some useful goals are to get **CPSC 340 (Machine Learning and Data Mining)** and **ECON 425 (Advanced Econometrics)** on your transcript.
 
 In particular, my suggested math and CS courses (9 in total), to attain that are:
-1. **CPSC 103 (Introduction to Systematic Program Design)** or jump to **CPSC 110 (Computation, Programs, and Programming)**: This is very approachable course in Python for anyone who hasn't coded before, and the CS department has outstanding undergrad course planning.  Fear not! Students with a stronger background and capacity for significant coursework can instead take **CPSC 110**.
-2. **CPSC 107 (Systematic Program Design)** (unnecessary if you took **CPSC 110**): Very useful course, required for the next stage of prereqs.  Anyone who complains about using Scheme/Racket is missing the point of the course.
-3. **MATH 221 (Matrix Algebra)**: Linear algebra is central to all sorts of problems in economics, statistics, and computer science.
-4. **MATH 200 (Calculus III)**: This course is the worst.  Very little of it is directly useful for building rigor, but it is a prereq for many classes.
+1. **CPSC 103 (Introduction to Systematic Program Design)** or **CPSC 110 (Computation, Programs, and Programming)**: An accessible Python course for beginners. Students with a stronger background may opt for **CPSC 110** directly, which is more intense in work but within reach for many students.
+2. **CPSC 107 (Systematic Program Design)**: Required if **CPSC 110** was not taken. An important prerequisite, emphasizing the importance of understanding core concepts formally (using Scheme/Racket, which is a good thing to expand your perspective).
+3. **MATH 221 (Matrix Algebra)**: Essential for tackling problems in economics, statistics, and computer science
+4. **MATH 200 (Calculus III)**: This course is the worst.  Very little is directly useful, and it won't help you build concepts, but it is a prereq.
 5. **MATH 220 (Mathematical Proof)**: Great class.  Builds rigor in logic and proofs you need in both economics and CS.
-6. **CPSC 210 (Software Construction)**: The only real "coding" class here, which is necessary to build the capacity to handle more advanced courses.
-7. **CPSC 221 (Basic Algorithms and Data Structures)**:  Teaches key proof techniques and discrete math you won't get in economics.
-8. **MATH 302 (Introduction to Probability)**: A fun, extremely important class for both CS and economics.  Relatively easy grading for a math class.  or **STATS 302**
-9. **CPSC 340 (Machine Learning and Data Mining)**: Great class teaching more of the fundamentals of ML.  Economists should learn this to truly understand these methods - but use them sparingly.  Strongly prefer this to **CPSC 330** which is more applications focused.  Enables some more advanced ML/AI courses
+6. **CPSC 210 (Software Construction)**: The closest to a "programming" class in this list, which is necessary prereq to handle more advanced CS courses.
+7. **CPSC 221 (Basic Algorithms and Data Structures)**:  Introduces discrete math and proof techniques not covered in economics courses.
+8. **MATH 302 (Introduction to Probability)**: A fun, extremely important class for both CS and economics.  Relatively easy grading for a math class. Alternatively, take **STATS 302**
+9. **CPSC 340 (Machine Learning and Data Mining)**: Great class teaching more of the fundamentals of ML and as a prereq for more advanced classes.  Take this core to truly understand these methods, in part to understand why they should be used sparingly.  Strongly prefer this to **CPSC 330** which is more applications focused.
 
 Then the economics classes which are good prep for graduate school
-1. **ECON 307 (Honours Intermediate Macroeconomics II)**: In principal intended for honours students, but please take it if you have more technical preparation - especially __if you want grad school letters of reference from me__.
-2. **ECON 326 (Introduction to Econometrics II)** or **ECON 328** for BIE or **STAT 306** for science majors.
-3. **ECON 425 (Advanced Econometrics)**: A core course for graduate school preparation
-4. **ECON 421 (Introduction to Game Theory and Applications)**: A core course for grad school preparation
-5. **ECON 408 (Computational Methods in Macroeconomics)**: A new course I am teaching which brings together many tools.  Not as necessary, but useful __if you want grad school letters of reference from me__
-6. **LOTS OF GOOD FIELD COURSES!**:  You cannot just take technical and methods courses, or you will have no idea how to do "economics" or whether you really want to.
+1. **ECON 307 (Honours Intermediate Macroeconomics II)**: In principle intended for honours students, but please take it if you have more technical preparation - especially __if you want grad school letters of reference from me__.
+2. **ECON 425 (Advanced Econometrics)**: A core course for graduate school preparation
+3. **ECON 421 (Introduction to Game Theory and Applications)**: A core course for grad school preparation
+4. **ECON 408 (Computational Methods in Macroeconomics)**: A new course brings together many tools.  Not necessary, but useful especially __if you want grad school letters of reference from me__
+5. **LOTS OF GOOD FIELD COURSES!**:  You cannot just take technical courses or you will have no idea how to do "economics" or whether you really want to
 
 ### Other Courses
 At that point, if you take classes outside of economics, focus on things that are interesting to you!
@@ -90,4 +84,6 @@ Depending on what you enjoyed, here is a non-exhaustive list of other courses wh
 - **MATH 340 (Introduction to Linear Programming)**
 - **MATH 341 (Introduction to Discrete Mathematics)**
 
-Again, do not take these sorts of courses instead of economics field courses.  They are essential!
+Again, do not forget about economics field courses, which are essential.
+
+Finally, for people like me writing letters of reference (and probably for grad school admissions, but I am less sure) it is a bad idea to take GPA-booster classes as electives.  Challenge yourself!  For example, everyone can spot joke classes in the faculty of science a mile away (in part because the class average is shown on transcripts).  Within Arts, the same rule applies.  For example, if you were born in China and get an average grade in a French literature class it tells people you were willing to work hard and challenge yourself - which is better than getting a top mark in an introductory Chinese literature class.
