@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Graduate student in Economics
+role: Graduate Student in Economics
 
 # Organizations/Affiliations
 organizations:
