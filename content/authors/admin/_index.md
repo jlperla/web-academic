@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jesse Perla
+title: Yunpeng Chen
 
 # Username (this should match the folder name)
 authors:
@@ -10,30 +10,29 @@ authors:
 superuser: true
 
 # Role/position
-role: Associate Professor of Economics
+role: Graduate student in Economics
 
 # Organizations/Affiliations
 organizations:
-- name: University of British Columbia
-  url: https://economics.ubc.ca/
+- name: 
+  url: 
 
+bio: My primary research interest lies in labor economics, especially including unemployment and inequality.
 # # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Growth/Macro-Development
-- Macro-Finance
-- Macro-IO
-- Machine Learning
+- Labor (Macro & Applied & Behavioral, Demographic Changes, Discrimination and Inequality, Unemployment)
+- Macro
 
 education:
   courses:
-  - course: PhD in Economics
-    institution: NYU
-    year: 2013
-  - course: BSc in Applied Mathematics
-    institution: Columbia
-    year: 1997
+  - course: BSc in Physics
+    institution: Zhengzhou University, China
+    year: 
+  - course: 
+    institution: 
+    year: 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -41,16 +40,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:jesseperla@gmail.com
-- icon: twitter
+  link: cheny.inbox@gmail.com
+- icon: 
   icon_pack: fab
-  link: https://twitter.com/jlperla
-- icon: google-scholar
+  link: 
+- icon: 
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=3lqXmOsAAAAJ&hl=en
+  link: 
 - icon: github
   icon_pack: fab
-  link: https://github.com/jlperla
+  link: https://github.com/ypgchen
 - icon: cv
   icon_pack: ai
   link: https://jlperla.github.io/CV/perla_cv.pdf
