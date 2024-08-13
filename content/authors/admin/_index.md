@@ -16,9 +16,9 @@ superuser: true
 
 # Organizations/Affiliations
 organizations:
-- name: Associate Professor, Vancouver School of Economics
+- name: Associate Professor, UBC Vancouver School of Economics
   url: https://economics.ubc.ca/
-- name: Associate Member, Computer Science
+- name: Associate Member, UBC Computer Science
   url: https://www.cs.ubc.ca/  
 
 # # Short bio (displayed in user profile at end of posts)
