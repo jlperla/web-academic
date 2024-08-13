@@ -62,4 +62,7 @@ projects: ["ML-high-dim"]
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
+links:
+  - name: Technical Appendix
+    url: 'spooky-boundaries-technical-appendix.pdf'
 ---
