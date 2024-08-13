@@ -10,14 +10,16 @@ authors:
 superuser: true
 
 # Role/position
-role:
-  - Associate Professor, Vancouver School of Economics 
-  - Associate Member, Computer Science
+# role:
+# - Associate Professor, Vancouver School of Economics 
+# - Associate Member, Computer Science
 
 # Organizations/Affiliations
 organizations:
-- name: University of British Columbia
+- name: Associate Professor, Vancouver School of Economics
   url: https://economics.ubc.ca/
+- name: Associate Member, Computer Science
+  url: https://www.cs.ubc.ca/  
 
 # # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
