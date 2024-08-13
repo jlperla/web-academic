@@ -10,8 +10,9 @@ authors:
 superuser: true
 
 # Role/position
-role: Associate Professor of Economics
-role: Associate Member, UBC Computer Science
+roles:
+- Associate Professor of Economics
+- Associate Member, Computer Science
 
 # Organizations/Affiliations
 organizations:
