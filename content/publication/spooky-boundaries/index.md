@@ -1,18 +1,18 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Spooky Boundaries at a Distance: Exploring Transversality and Stability with Deep Learning"
+title: "Spooky Boundaries at a Distance: Inductive Bias, Dynamic Models, and Behavioral Macro"
 authors:
 - Mahdi Ebrahimi Kahou
 - Jesus Fernandez-Villaverde
 - Sebastian Gomez-Cardona
 - Jesse Perla
 - Jan Rosa
-date: 2022-10-23T10:21:19-07:00
+date: 2024-08-12T10:21:19-07:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022-10-23T10:21:19-07:00
+publishDate: 2024-08-12T10:21:19-07:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -24,9 +24,9 @@ publication_types: ["3"]
 publication: '**Working Paper**'
 publication_short: ""
 
-abstract: "In the long run, we are all dead. Nonetheless, even when investigating short-run dynamics, models require boundary conditions on long-run, forward-looking behavior (e.g., transversality and no-bubble conditions). In this paper, we show how deep learning approximations can automatically fulfill these conditions despite not directly calculating the steady state, balanced growth path, or ergodic distribution. The main implication is that we can solve for transition dynamics with forward-looking agents, confident that long-run boundary conditions will implicitly discipline the short-run decisions, even converging towards the correct equilibria in cases with steady-state multiplicity. While this paper analyzes benchmarks such as the neoclassical growth model, the results suggest deep learning may let us calculate accurate transition dynamics with high-dimensional state spaces, and without directly solving for long-run behavior."
+abstract: "In the long run, we are all dead. Nonetheless, when studying the short-run dynamics of economic models, it is crucial to consider boundary conditions that govern long-run, forward-looking behavior, such as transversality conditions. We demonstrate that machine learning (ML) can automatically satisfy these conditions due to its inherent inductive bias toward finding flat solutions to functional equations. This characteristic enables ML algorithms to solve for transition dynamics, ensuring that long-run boundary conditions are approximately met. ML can even select the correct equilibria in cases of steady-state multiplicity. Additionally, the inductive bias provides a foundation for modeling forward-looking behavioral agents with self-consistent expectations."
 
-summary: "In the long run, we are all dead. Nonetheless, even when investigating short-run dynamics, models require boundary conditions on long-run, forward-looking behavior. In this paper, we show how deep learning approximations can automatically fulfill these conditions."
+summary: "In the long run, we are all dead. Nonetheless, when studying the short-run dynamics of economic models, it is crucial to consider boundary conditions that govern long-run, forward-looking behavior, such as transversality conditions. We demonstrate that machine learning (ML) can automatically satisfy these conditions due to its inherent inductive bias toward finding flat solutions to functional equations."
 
 tags: []
 categories: []
