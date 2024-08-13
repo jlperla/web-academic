@@ -10,9 +10,9 @@ authors:
 superuser: true
 
 # Role/position
-roles:
-- Associate Professor of Economics
-- Associate Member, Computer Science
+role:
+  - Associate Professor, Vancouver School of Economics 
+  - Associate Member, Computer Science
 
 # Organizations/Affiliations
 organizations:
