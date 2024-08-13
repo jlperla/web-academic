@@ -11,6 +11,7 @@ superuser: true
 
 # Role/position
 role: Associate Professor of Economics
+role: Associate Member, UBC Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -24,7 +25,7 @@ interests:
 - Growth/Macro-Development
 - Macro-Finance
 - Macro-IO
-- Machine Learning
+- Machine Learning and AI
 
 education:
   courses:
