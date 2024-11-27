@@ -32,5 +32,4 @@ publication_types:
 - 2
 publication: '**Journal of Economic Theory**'
 abstract: "We study how frictions originating from limited liability distort firms' investment and financing choices. By financing new investments with debt, firms can use limited liability to credibly commit to defaulting earlier—allowing both firm owners and new creditors to benefit from diluting existing creditors. In a dynamic setup, this leads to time-inconsistency, increasing the cost of external funds and discouraging investment. We show that the interaction of these two forces leads to heterogeneous investment distortions, where highly-indebted firms overinvest and those with low levels of debt underinvest. Allowing firm owners to pay themselves directly from new debt issuance can mitigate overinvestment but, in the presence of repeated investment opportunities, tends to exacerbate underinvestment among low-leverage firms."
-url_pdf: https://www.sciencedirect.com/science/article/pii/S0022053124001327
 ---
