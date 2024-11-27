@@ -6,8 +6,8 @@ subtitle: ""
 summary: "Not every top student should choose to get a PhD in economics or finance. But if you are considering it, then some advanced preparation can make your life easier"
 tags: []
 categories: []
-date: 2024-11-28T07:13:10-07:00
-lastmod: 2024-11-28T07:13:10-07:00
+date: 2024-11-26T07:13:10-07:00
+lastmod: 2024-11-26T07:13:10-07:00
 featured: false
 draft: false
 
@@ -37,7 +37,7 @@ Relative to older advice, I am increasing the importance of taking Computer Scie
 - Do not get caught up in programming languages.  You need to learn at least two to three (outside of stata and R, which are outstanding at what they do but won't help you develop the needed skills).
 
 ### What About Datascience?
-There are a lot of recent programs, classes, etc. at UBC and beyond for datascience.  They are often great and useful courses.  Datascience is sometimes criticized as simply relabeled CS or Stats, but I don't think that either is fair.  Datascience is its own thing and style of applied statistics and computer science that combines practical skills with less emphasis on the foundational theory.
+There are a lot of recent programs, classes, etc. at UBC and beyond for datascience.  They are often great and useful courses.  Datascience is sometimes unfairly criticized as just relabeled CS or Statistics.  In reality, datascience is its disipline and style, bringing together applied statistics and computer science that combines practical skills (with less emphasis on the foundational theory at the undergrad level).
 
 For many applied people with no interest in taking advanced mathematics, computer science, or statistics courses the datascience classes and minor are perfect.  But they do not lead to prereqs towards computer science (and non-applied statistics/math classes).  I feel that students who think they may want to go to graduate school in economics/finance/etc. should instead take CS/math/stats courses directly and skip the datascience classes.
 
