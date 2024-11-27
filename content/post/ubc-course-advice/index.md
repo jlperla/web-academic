@@ -36,10 +36,10 @@ Relative to older advice, I am increasing the importance of taking Computer Scie
 - However, a word of warning: the 100 and 200 level classes demand significantly more effort than economics courses. It is a challenging but valuable investment of time, as there is no substitute for building familiarity with the material. They grade fairly and generously, so there is no need to worry about your GPA.
 - Do not get caught up in programming languages.  You need to learn at least two to three (outside of stata and R, which are outstanding at what they do but won't help you develop the needed skills).
 
-### What About Datascience?
-There are a lot of recent programs, classes, etc. at UBC and beyond for datascience.  They are often great and useful courses.  Datascience is sometimes unfairly criticized as just relabeled CS or Statistics.  In reality, datascience is its disipline and style, bringing together applied statistics and computer science that combines practical skills (with less emphasis on the foundational theory at the undergrad level).
+### What am I not Recommending Datascience Classes?
+There are a lot of recent programs, classes, etc. at UBC and beyond for datascience.  They are often great and useful courses.  Datascience can be unfairly criticized as just relabeled CS or Statistics, where it really is its own thing.  Datascience brings together applied statistics and light computer science with combines practical skills (with less emphasis on the foundational theory at the undergrad level).
 
-For many applied people with no interest in taking advanced mathematics, computer science, or statistics courses the datascience classes and minor are perfect.  But they do not lead to prereqs towards computer science (and non-applied statistics/math classes).  I feel that students who think they may want to go to graduate school in economics/finance/etc. should instead take CS/math/stats courses directly and skip the datascience classes.
+For many applied people with no interest in taking advanced mathematics, computer science, statistics, or econometrics courses the datascience classes and minor are perfect.  But they are applied, terminal classes and do not lead to useful prereqs towards computer science (and non-applied statistics/math classes).  I feel that students who think they may want to go to graduate school in economics/finance/etc. should instead take CS/math/stats courses directly and skip the datascience classes.  Others should take the opposite approach.
 
 ### Goals for All
 Take some mathematics and computing courses as soon as possible in your degree.  In particular, almost all economics majors who think they may be interested in grad school should take:
@@ -56,10 +56,11 @@ In particular, my suggested math and CS courses (9 in total), to attain that are
 2. **CPSC 107 (Systematic Program Design)**: Required if **CPSC 110** was not taken. An important prerequisite, emphasizing the importance of understanding core concepts formally (using Scheme/Racket, which is a good thing to expand your perspective).
 3. **MATH 221 (Matrix Algebra)**: Essential for tackling problems in economics, statistics, and computer science
 4. **MATH 200 (Calculus III)**: This course is the worst.  Very little is directly useful, and it won't help you build concepts, but it is a prereq for CPSC 340.
-5. **MATH 220 (Mathematical Proof)**: Great class.  Builds rigor in logic and proofs you need in both economics and CS.
+5. **MATH 220 (Mathematical Proof)**: Great class.  Builds rigor in logic and proofs you need in both economics and CS.  Requirement for **CPSC 221** in this path.
 6. **CPSC 210 (Software Construction)**: The closest to a "programming" class in this list, which is necessary prereq to handle more advanced CS courses.
 7. **CPSC 221 (Basic Algorithms and Data Structures)**:  Introduces discrete math and proof techniques not covered in economics courses.
-8. **CPSC 340 (Machine Learning and Data Mining)**: Great class teaching more of the fundamentals of ML and as a prereq for more advanced classes.  Take this core to truly understand these methods, in part to understand why they should be used sparingly.  Strongly prefer this to **CPSC 330** which is more applications focused and not good grad school preparation.
+8. **CPSC 340 (Machine Learning and Data Mining)**: Great class teaching more of the fundamentals of ML and as a prereq for more advanced classes.  Take this to truly understand these methods, in part to understand why they should be used sparingly.
+   - **Strongly prefer this to CPSC 330** which is more applications focused and not good signal for grad school preparation.
 
 Then the economics classes which are good prep for graduate school
 1. **ECON 307 (Honours Intermediate Macroeconomics II)**: In principle intended for honours students, but please take it if you have more technical preparation - especially __if you want grad school letters of reference from me__.
@@ -73,7 +74,7 @@ At that point, if you take classes outside of economics, focus on things that ar
 
 Depending on what you enjoyed, here is a non-exhaustive list of other courses which might expand your interest perspectives.
 - **MATH 302 (Introduction to Probability)**: A fun, extremely important class for both CS and economics.  Relatively easy grading for a math class. Alternatively, take **STATS 302**
-  - Note that ECON327/325 is an equivalent prerews in some cases.
+  - Note that ECON327/325 is an equivalent prereqs in some cases.
 - **CPSC 322 (Introduction to Artificial Intelligence)** 
 - **CPSC 430 (Computers and Society)**
 - **CPSC 320 (Intermediate Algorithm Design and Analysis)**: Core course for 4th year theory, discrete math, etc.
