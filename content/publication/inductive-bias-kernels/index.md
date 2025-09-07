@@ -5,7 +5,6 @@ title: "How Inductive Bias in Machine Learning Aligns with Optimality in Economi
 authors:
 - Mahdi Ebrahimi Kahou
 - Jesse Perla
-- James Yu
 - Geoff Pleiss
 date: 2024-08-12T10:21:19-07:00
 doi: ""

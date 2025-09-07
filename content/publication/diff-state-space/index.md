@@ -4,7 +4,7 @@
 title: "Differentiable State-Space Models and Hamiltonian Monte Carlo Estimation"
 summary: 'We propose a methodology to take dynamic stochastic general equilibrium (DSGE) models to the data based on the combination of differentiable state-space models and the Hamiltonian Monte Carlo (HMC) sampler.'
 authors:
-- David Childers
+- Rachel Childers
 - Jesus Fernandez-Villaverde
 - Jesse Perla
 - Christopher Rackauckas
