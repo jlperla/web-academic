@@ -1,16 +1,16 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How Inductive Bias in Machine Learning Aligns with Optimality in Economic Dynamics"
+title: "Solving Models of Economic Dynamics with Ridgeless Kernel Regressions"
 authors:
 - Mahdi Ebrahimi Kahou
 - Jesse Perla
 - Geoff Pleiss
-date: 2024-08-12T10:21:19-07:00
+date: 2025-10-02T10:21:19-07:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-08-12T10:21:19-07:00
+publishDate: 2025-10-02T10:21:19-07:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -22,30 +22,11 @@ publication_types: ["3"]
 publication: '**arXiv Working Paper**'
 publication_short: ""
 
-abstract: "This paper examines the alignment of inductive biases in machine learning
-  (ML) with structural models of economic dynamics.  Unlike dynamical systems
-  found in physical and life sciences, economics models are often specified by
-  differential equations with a mixture of easy-to-enforce initial conditions
-  and hard-to-enforce infinite horizon boundary conditions (e.g. transversality and no-ponzi-scheme
-  conditions).  Traditional methods for enforcing these constraints are
-  computationally expensive and unstable.  We investigate algorithms where those
-  infinite horizon constraints are ignored, simply training unregularized kernel machines
-  and neural networks to obey the differential equations.  Despite the inherent
-  underspecification of this approach, our findings reveal that the inductive
-  biases of these ML models innately enforce the infinite-horizon conditions
-  necessary for the well-posedness.  We theoretically demonstrate that
-  (approximate or  exact) min-norm ML solutions to interpolation problems are
-  sufficient conditions for these infinite-horizon boundary conditions in a wide class of problems.  We then provide
-  empirical evidence that deep learning and ridgeless kernel methods are not
-  only theoretically sound with respect to economic assumptions, but may even
-  dominate classic algorithms in low to medium dimensions.  More importantly,
-  these results give confidence that, despite solving seemingly ill-posed
-  problems, there are reasons to trust the plethora of black-box ML
-  algorithms used by economists to solve previously intractable,
-  high-dimensional dynamical systems---paving the way for future work on
-  estimation of inverse problems with embedded optimal control problems."
+abstract: "This paper proposes a ridgeless kernel method for solving infinite-horizon, deterministic, continuous-time models in economic dynamics, formulated as systems of differential-algebraic equations with asymptotic boundary conditions (e.g., transversality).  Traditional shooting methods enforce the asymptotic boundary conditions by targeting a known steady state---which is numerically unstable, hard to tune, and unable to address cases with steady-state multiplicity.
+Instead, our approach solves the underdetermined problem without imposing the asymptotic boundary condition, using regularization to select the unique solution fulfilling transversality among admissible trajectories.  In particular, ridgeless kernel methods recover this path by selecting the minimum norm solution, coinciding with the non-explosive trajectory.
+We provide theoretical guarantees showing that kernel solutions satisfy asymptotic boundary conditions without imposing them directly, and we establish a consistency result ensuring convergence within the solution concept of differential-algebraic equations. Finally, we illustrate the method in canonical models and demonstrate its ability to handle problems with multiple steady states."
 
-summary: "This paper shows how kernel based methods can automatically fulfill long-run boundary conditions for dynamic economic models, and provide an alternative to classical methods - even in low dimensions."
+summary: "This paper proposes a ridgeless kernel method for solving models in economic dynamics, formulated as systems of differential-algebraic equations with asymptotic boundary conditions."
 
 tags: []
 categories: []
