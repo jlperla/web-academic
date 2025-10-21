@@ -36,6 +36,14 @@ Relative to older advice, I am increasing the importance of taking Computer Scie
 - However, a word of warning: the 100 and 200 level classes demand significantly more effort than economics courses. It is a challenging but valuable investment of time, as there is no substitute for building familiarity with the material. They grade fairly and generously, so there is no need to worry about your GPA.
 - Do not get caught up in programming languages.  You need to learn at least two to three (outside of stata and R, which are outstanding at what they do but won't help you develop the needed skills).
 
+
+### Heuristic Count on Math Courses for MA and PhD in Economics
+A rule of thumb for applying to most masters programs is that you should have:
+- Two years of math classes.  Since the content of classes is inconsistent between universities, many people reviewing your application will look for a total of 4 couress (including your first year calculus sequence).  For those who skip the first calculus class (e.g., due to AP credit) they might only expect 3 courses, but I would not count on it.
+- The course titles you want should demonstrate that you have taken are (1) something to do with linear algebra or matrix algebra; and (2) multivariable calculus (or a third generically named calculus, which I think most schools will assume is multivariate)
+
+Expectations in PhD admissions in economics are more varied, but many students would have some sort of proofs course (e.g., a MATH220 equivalent) or elementary real variables/real analysis.  Regardless, you will want to have at least 4 courses from MATH on your transcript for a PhD.
+
 ### What am I not Recommending Datascience Classes?
 There are many recent programs, classes, and initiatives at UBC and beyond focusing on data science. These courses are often excellent and highly practical. While data science is sometimes unfairly criticized as merely a rebranding of computer science or statistics, it is a distinct field in its own right. Data science integrates applied statistics and foundational computer science with a focus on practical skills, placing less emphasis on theoretical foundations at the undergraduate level.
 
@@ -45,13 +53,6 @@ For students who have no interest in pursuing advanced mathematics, computer sci
 Take some mathematics and computing courses as soon as possible in your degree.  In particular, almost all economics majors who think they may be interested in grad school should take:
 - **MATH 221 (Matrix Algebra)** .  This is a relatively easy math course for UBC, and linear/matrix algebra is essential for a lot of economics, finance, statistics, datascience, and machine learning.
 - **CPSC 103 (Introduction to Systematic Program Design)** or **ECON323 (Quantitative Economic Modeling and Data Science)**.  It is essential to learn to "code" in a general-purpose language (i.e., the programming language doesn't really matter, just that it is a proper one and not simply R or Stata).  **ECON 323** is a easy entry to learning to code (not necessarily easier than **CPSC 103** though) that uses more direct economics examples, which is fine for most economics majors but limits your ability to take CS electives.
-
-### Heuristic Count on Math Courses for MA and PhD in Economics
-A rule of thumb for applying to most masters programs is that you should have:
-- Two years of math classes.  Since the content of classes is inconsistent between univerwsities, many people reviewing your application will look for a total of 4 couress (including your first year calculus).  For those who skip the first calculus class (e.g., AP credit) they might only need 3 courses, but I would not count on it.
-- The course titles you want should demonstrate that you have taken are (1) something to do with linear algebra or matrix algebra; and (2) multivariable calculus (or a third generically named calculus, which I think most schools will assume is multivariate)
-
-Expectations in PhD admissions in economics are more varied, but many students would have some sort of proofs course (e.g., a MATH220 equivalent) or elementary real variables/real analysis.  Regardless, you will want to have at least 4 courses from MATH on your transcript.
 
 ### Suggested Courses
 But __if I were starting an undergrad__, some useful goals are to get **CPSC 340 (Machine Learning and Data Mining)** and **ECON 425 (Advanced Econometrics)** on your transcript.
@@ -102,3 +103,4 @@ Depending on what you enjoyed, here is a non-exhaustive list of other courses wh
 Again, do not forget about economics field courses, which are essential.
 
 Finally, for people like me writing letters of reference (and probably for grad school admissions, but I am less sure) it is a bad idea to take GPA-booster classes as electives.  Challenge yourself!  For example, everyone can spot joke classes in the faculty of science a mile away (in part because the class average is shown on transcripts).  Within Arts, the same rule applies.  For example, if you were born in China and get an average grade in a French literature class it tells people you were willing to work hard and challenge yourself - which is better than getting a top mark in an introductory Chinese literature class.
+
