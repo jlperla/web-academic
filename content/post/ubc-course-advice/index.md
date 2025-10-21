@@ -6,8 +6,8 @@ subtitle: ""
 summary: "Not every top student should choose to get a PhD in economics or finance. But if you are considering it, then some advanced preparation can make your life easier"
 tags: []
 categories: []
-date: 2024-11-26T07:13:10-07:00
-lastmod: 2024-11-26T07:13:10-07:00
+date: 2025-10-20T07:13:10-07:00
+lastmod: 2025-10-20T07:13:10-07:00
 featured: false
 draft: false
 
@@ -45,6 +45,13 @@ For students who have no interest in pursuing advanced mathematics, computer sci
 Take some mathematics and computing courses as soon as possible in your degree.  In particular, almost all economics majors who think they may be interested in grad school should take:
 - **MATH 221 (Matrix Algebra)** .  This is a relatively easy math course for UBC, and linear/matrix algebra is essential for a lot of economics, finance, statistics, datascience, and machine learning.
 - **CPSC 103 (Introduction to Systematic Program Design)** or **ECON323 (Quantitative Economic Modeling and Data Science)**.  It is essential to learn to "code" in a general-purpose language (i.e., the programming language doesn't really matter, just that it is a proper one and not simply R or Stata).  **ECON 323** is a easy entry to learning to code (not necessarily easier than **CPSC 103** though) that uses more direct economics examples, which is fine for most economics majors but limits your ability to take CS electives.
+
+### Heuristic Count on Math Courses for MA and PhD in Economics
+A rule of thumb for applying to most masters programs is that you should have:
+- Two years of math classes.  Since the content of classes is inconsistent between univerwsities, many people reviewing your application will look for a total of 4 couress (including your first year calculus).  For those who skip the first calculus class (e.g., AP credit) they might only need 3 courses, but I would not count on it.
+- The course titles you want should demonstrate that you have taken are (1) something to do with linear algebra or matrix algebra; and (2) multivariable calculus (or a third generically named calculus, which I think most schools will assume is multivariate)
+
+Expectations in PhD admissions in economics are more varied, but many students would have some sort of proofs course (e.g., a MATH220 equivalent) or elementary real variables/real analysis.  Regardless, you will want to have at least 4 courses from MATH on your transcript.
 
 ### Suggested Courses
 But __if I were starting an undergrad__, some useful goals are to get **CPSC 340 (Machine Learning and Data Mining)** and **ECON 425 (Advanced Econometrics)** on your transcript.
