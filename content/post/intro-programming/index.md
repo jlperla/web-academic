@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Advice on Learning Python"
+title: "Advice on Learning Python and Harvard's Online CS50 Course"
 subtitle: ""
 summary: ""
 tags: []
